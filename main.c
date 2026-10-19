@@ -26,13 +26,26 @@ int main() {
             if(ctr==s){
                 printf("Sabia! Te venci muito facil");
             }else{
-                printf("Que pena, mas eu nao perdi, apenas desconehco o seu personagem, gostaria de fazer com que eu conhecesse? (s/n)");
+                printf("Que pena, mas eu nao perdi, apenas desconehco a sua personagem, gostaria de fazer com que eu a conhecesse? (s/n)");
                 scanf("%c", &ctr)
                 if(ctr==s){
                     printf("Me fale uma caracteristica indestinguivel");
                     gets(caracteristicaindestinguivel);
                     quant = strlen(caracteristicaindestinguivel);
-                    //fwrite()
+                    /*
+                    algo nesse sentido
+
+                    fopen (arquivo, a);
+                    fwrite(*caracteristicaindestinguivel, sizeof(char), quant, arquivo);
+                    fclose(arquivo);
+                    */
+
+                }
+                else if(ctr==n){
+                    printf("Infelizmente continuarei a desconhecer sua persogem, obrigado por jogar!");
+                }
+                else{
+                    printf("Erro no input do usuario");
                 }
             }
         }
