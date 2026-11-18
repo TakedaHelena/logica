@@ -13,24 +13,7 @@ void inicializarArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
 }
 
 //carrega dados da struct no arquivo
-int storeStruct(struct aluno *p, int n){
-    FILE *fp;
-    fp = fopen("exemplo.txt", "a");
-    if(fp == NULL){
-        printf("Erro na abertura do arquivo.\n");
-        fclose(fp);
-        fp = fopen("exemplo.txt", "a");
-        fclose(fp);
-        return 1;
-
-    }
-    
-    fclose(fp);
-    return 0;
-}
-
-//carrega dados da struct no arquivo
-int storeStructH(struct aluno *p, int n){
+int storeStructH(char *hist){
     FILE *fp;
     fp = fopen("Hist.txt", "r");
     if(fp == NULL){
@@ -45,31 +28,47 @@ int storeStructH(struct aluno *p, int n){
     fclose(fp);
     return 0;
 }
-     /*
-        //*carrega dados do arquivo na struct
-        int loadStruct(struct aluno *p, int n){
-            FILE *fp;
-            fp = fopen("exemplo.txt", "r");
-            if(fp == NULL){
-                printf("Erro na abertura do arquivo.\n");
-                fclose(fp);
-                fp = fopen("exemplo.txt", "a");
-                fclose(fp);
-                return 0;
-            }
-            for(int i = 0; i < n; i++){
-                if(fscanf(fp,"%d\\n", &p[i].mat, &p[i].n1, &p[i].n2, &p[i].n3, &p[i].media) == EOF){
-                    break;
-                }
-            }
+//isso aqui eh pra arvore binária, no começo e no fim do codigo, respectivamente
+    //carrega dados no vetor principal
+    int loadStruct(char *arvore){
+        FILE *fp;
+        fp = fopen("ArvBin.txt", "r");
+        if(fp == NULL){
+            printf("Erro na abertura do arquivo.\n");
+            fclose(fp);
+            fp = fopen("ArvBin.txt", "a");
+            fclose(fp);
             return 0;
         }
-    */
+        for(int i = 0; i < TAM_ARVORE; i++){
+            if(fscanf(fp,"%d\\n", &p[i]) == EOF){
+                break;
+            }
+        }
+        return 0;
+    }
+    //carrega dados da struct no arquivo
+    int storeStruct(char *arvore){
+        FILE *fp;
+        fp = fopen("ArvBin.txt", "a");
+        if(fp == NULL){
+            printf("Erro na abertura do arquivo.\n");
+            fclose(fp);
+            fp = fopen("ArvBin.txt", "a");
+            fclose(fp);
+            return 1;
+
+        }
+        
+        fclose(fp);
+        return 0;
+    }
+
     
 // Adiciona um nome em uma posição específica
 void adicionarNome(char arvore[TAM_ARVORE][TAM_NOME], int indice, const char *nome) {
     if (indice >= TAM_ARVORE) {
-        printf("Erro: Índice %d fora dos limites da árvore!\n", indice);
+        printf("Erro: Indice %d fora dos limites da arvore!\n", indice);
         return;
     }
 
@@ -105,7 +104,8 @@ void exibirArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
 int main() 
     //struct aluno vet[1022];
     int opc, quant;
-    char ctr, caracteristicaindestinguivel[21];
+    char ctr, caracteristicaindestinguivel[21], nome[21];
+    char hist[51]
     printf("Escolha o seu destino: \n")
     printf("1 - Jogar\n");
     printf("2 - Adicionar personagem\n");
@@ -115,16 +115,20 @@ int main()
     scanf("%d", opc);
     while(opc<5&&opc>0){
         if(opc==1){
-            //finalzinho do codigo
-            printf("O seu personagem eh o fulano?(s/n)");
-            scanf("%c", &ctr)
+            
+            printf("fulano");
+            scanf("%c", &ctr);
             if(ctr==s){
                 printf("Sabia! Te venci muito facil");
+                strncpy(hist, "Pessoa: %s - Acertada", /*fulano*/);
             }else{
                 printf("Que pena, mas eu nao perdi, apenas desconehco a sua personagem, gostaria de fazer com que eu a conhecesse? (s/n)");
                 scanf("%c", &ctr)
                 if(ctr==s || ctr==S){
-                    printf("Me fale uma caracteristica indestinguivel");
+                    printf("Qual o nome da sua pessoa?");
+                    gets(nome);
+                    strncpy(hist, "Pessoa: %s - Acertada", nome);
+                    prtinf("Me fale uma caracteristica indestinguivel");
                     gets(caracteristicaindestinguivel);
                     quant = strlen(caracteristicaindestinguivel);
                     /*
