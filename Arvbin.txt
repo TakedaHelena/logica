@@ -1,1534 +1,1023 @@
-adicionarNome(arvore, 0, "Eh aluno?");
-
-adicionarNome(arvore, 1, "Eh do sexo Masculino?");
-adicionarNome(arvore, 2, "Eh do sexo Masculino?");
-
-adicionarNome(arvore, 3, "Usa oculos?");
-adicionarNome(arvore, 4, "Usa oculos?");
-
-adicionarNome(arvore, 5, "Usa Oculos?");
-adicionarNome(arvore, 6, "Usa Oculos?");
-
-adicionarNome(arvore, 7, "Possui Cabelo Cacheado?");
-adicionarNome(arvore, 8, "Fez o trabalho de artes com a musica Hear me Now? (bonequinhos brilhantes no escuro)");
-
-adicionarNome(arvore, 9, "Tem Descendencia Japonesa?");
-adicionarNome(arvore, 10, "Tem Descendencia Japonesa?");
-
-adicionarNome(arvore, 11, "Da aula de Tecnico?");
-adicionarNome(arvore, 12, "Da aula de Tcnico?");
-
-adicionarNome(arvore, 13, "Da aula de Tcnico?");
-adicionarNome(arvore, 14, "Possui cabelo curto (impossivel de prender)?");
-
-adicionarNome(arvore, 15, "Eh repreentante de classe?");
-adicionarNome(arvore, 16, "Possui descendencia asiatica?");
-
-adicionarNome(arvore, 17, "Possui cabelo claro?");
-adicionarNome(arvore, 18, "Tem a letra E no nome?");
-
-adicionarNome(arvore, 19, "Aiko");
-adicionarNome(arvore, 20, "Possui cabelo cacheado?");
-
-adicionarNome(arvore, 21, "Helena");
-adicionarNome(arvore, 22, "Possui cabelo pintado aparente (ate 05/10)?");
-
-adicionarNome(arvore, 23, "Eh canhoto?");
-adicionarNome(arvore, 24, "Eh de humanas?");
-
-adicionarNome(arvore, 25, "Julio");
-adicionarNome(arvore, 26, "Ricardo");
-
-adicionarNome(arvore, 27, "Bianca");
-adicionarNome(arvore, 28, "Eh de humanas?");
-
-adicionarNome(arvore, 29, "Andrea");
-adicionarNome(arvore, 30, "Rosane");
-
-adicionarNome(arvore, 31, "Miguel Santana");
-adicionarNome(arvore, 32, "Sabe fazer barulho de gota?");
-
-adicionarNome(arvore, 33, "Eh representante do CONCAN?");
-adicionarNome(arvore, 34, "Eh canhoto?");
-
-adicionarNome(arvore, 35, "Tocou flauta na aula?");
-adicionarNome(arvore, 36, "Kaiky");
-
-adicionarNome(arvore, 37, "Nao tem cabelo cacheado?");
-adicionarNome(arvore, 38, "Veio de escola com ensino Valdurf?");
-
-adicionarNome(arvore, 39, "Aiko");
-adicionarNome(arvore, 40, "Aiko");
-
-adicionarNome(arvore, 41, "Senta na primeira fileira?");
-adicionarNome(arvore, 42, "Fez kpop no trabalho de artes?");
-
-adicionarNome(arvore, 43, "Helena");
-adicionarNome(arvore, 44, "Helena");
-
-adicionarNome(arvore, 45, "Possui duas letras repetidas em sequencia dentro do proprio nome?");
-adicionarNome(arvore, 46, "Estudou anteriormente com o Gilberto?");
-
-adicionarNome(arvore, 47, "Diego");
-adicionarNome(arvore, 48, "Danilo");
-
-adicionarNome(arvore, 49, "Vem de moto pra escola?");
-adicionarNome(arvore, 50, "Da mais de duas aulas na semana?");
-
-adicionarNome(arvore, 51, "Julio");
-adicionarNome(arvore, 52, "Julio");
-
-adicionarNome(arvore, 53, "Ricardo");
-adicionarNome(arvore, 54, "Ricardo");
-
-adicionarNome(arvore, 55, "Bianca");
-adicionarNome(arvore, 56, "Bianca");
-
-adicionarNome(arvore, 57, "Da mais de duas aulas na semana?");
-adicionarNome(arvore, 58, "Tem filho (Fantoche)?");
-
-adicionarNome(arvore, 59, "Andrea");
-adicionarNome(arvore, 60, "Andrea");
-
-adicionarNome(arvore, 61, "Rosane");
-adicionarNome(arvore, 62, "Rosane");
-
-adicionarNome(arvore, 63, "Miguel Santana");
-adicionarNome(arvore, 64, "Miguel Santana");
-
-adicionarNome(arvore, 65, "Gabriel Teodoro");
-adicionarNome(arvore, 66, "Tem namoro publico?");
-
-adicionarNome(arvore, 67, "Lucas Miura");
-adicionarNome(arvore, 68, "Rafael Toshio");
-
-adicionarNome(arvore, 69, "Miguel Nunes");
-adicionarNome(arvore, 70, "Eh a pessoa mais alta do 1 info?");
-
-adicionarNome(arvore, 71, "Felipe");
-adicionarNome(arvore, 72, "Lucas Clevelaro");
-
-adicionarNome(arvore, 73, "Kaiky");
-adicionarNome(arvore, 74, "Kaiky");
-
-adicionarNome(arvore, 75, "Breno");
-adicionarNome(arvore, 76, "O nome comeca com G?");
-
-adicionarNome(arvore, 77, "Ravi");
-adicionarNome(arvore, 78, "Normalmente senta na frente?");
-
-adicionarNome(arvore, 79, "Aiko");
-adicionarNome(arvore, 80, "Aiko");
-
-adicionarNome(arvore, 81, "Aiko");
-adicionarNome(arvore, 82, "Aiko");
-
-adicionarNome(arvore, 83, "Micaela");
-adicionarNome(arvore, 84, "Iara");
-
-adicionarNome(arvore, 85, "Alice vilarvas");
-adicionarNome(arvore, 86, "Alice vitoria");
-
-adicionarNome(arvore, 87, "Helena");
-adicionarNome(arvore, 88, "Helena");
-
-adicionarNome(arvore, 89, "Helena");
-adicionarNome(arvore, 90, "Helena");
-
-adicionarNome(arvore, 91, "Toca baixo?");
-adicionarNome(arvore, 92, "Tem botton na bolsa?");
-
-adicionarNome(arvore, 93, "Yasmin");
-adicionarNome(arvore, 94, "Beatriz");
-
-adicionarNome(arvore, 95, "Diego");
-adicionarNome(arvore, 96, "Diego");
-
-adicionarNome(arvore, 97, "Danilo");
-adicionarNome(arvore, 98, "Danilo");
-
-adicionarNome(arvore, 99, "Matheus");
-adicionarNome(arvore, 100, "Ivo");
-
-adicionarNome(arvore, 101, "Carlos");
-adicionarNome(arvore, 102, "Clewton");
-
-adicionarNome(arvore, 103, "Julio");
-adicionarNome(arvore, 104, "Julio");
-
-adicionarNome(arvore, 105, "Julio");
-adicionarNome(arvore, 106, "Julio");
-
-adicionarNome(arvore, 107, "Ricardo");
-adicionarNome(arvore, 108, "Ricardo");
-
-adicionarNome(arvore, 109, "Ricardo");
-adicionarNome(arvore, 110, "Ricardo");
-
-adicionarNome(arvore, 111, "Bianca");
-adicionarNome(arvore, 112, "Bianca");
-
-adicionarNome(arvore, 113, "Bianca");
-adicionarNome(arvore, 114, "Bianca");
-
-adicionarNome(arvore, 115, "Gluacia");
-adicionarNome(arvore, 116, "Fez pesca na aula?");
-
-adicionarNome(arvore, 117, "Milena");
-adicionarNome(arvore, 118, "Noemy");
-
-adicionarNome(arvore, 119, "Andrea");
-adicionarNome(arvore, 120, "Andrea");
-
-adicionarNome(arvore, 121, "Andrea");
-adicionarNome(arvore, 122, "Andrea");
-
-adicionarNome(arvore, 123, "Rosana");
-adicionarNome(arvore, 124, "Rosana");
-
-adicionarNome(arvore, 125, "Rosane");
-adicionarNome(arvore, 126, "Rosane");
-
-adicionarNome(arvore, 127, "Miguel Santana");
-adicionarNome(arvore, 128, "Miguel Santana");
-
-adicionarNome(arvore, 129, "Miguel Santana");
-adicionarNome(arvore, 130, "Miguel Santana");
-
-adicionarNome(arvore, 131, "Gabriel Teodoro");
-adicionarNome(arvore, 132, "Gabriel Teodoro");
-
-adicionarNome(arvore, 133, "Enzo");
-adicionarNome(arvore, 134, "Ezequiel");
-
-adicionarNome(arvore, 135, "Lucas Miura");
-adicionarNome(arvore, 136, "Lucas Miura");
-
-adicionarNome(arvore, 137, "Rafael Toshio");
-adicionarNome(arvore, 138, "Rafael Toshio");
-
-adicionarNome(arvore, 139, "Pedro");
-adicionarNome(arvore, 140, "Eh um nome extremamente comum?");
-
-adicionarNome(arvore, 141, "Miguel Nunes");
-adicionarNome(arvore, 142, "Miguel Nunes");
-
-adicionarNome(arvore, 143, "Felipe");
-adicionarNome(arvore, 144, "Felipe");
-
-adicionarNome(arvore, 145, "Lucas Clevelaro");
-adicionarNome(arvore, 146, "Lucas Clevelaro");
-
-adicionarNome(arvore, 147, "Kaiky");
-adicionarNome(arvore, 148, "Kaiky");
-
-adicionarNome(arvore, 149, "Kaiky");
-adicionarNome(arvore, 150, "Kaiky");
-
-adicionarNome(arvore, 151, "Breno");
-adicionarNome(arvore, 152, "Breno");
-
-adicionarNome(arvore, 153, "Tem o mesmo sobrenome de outro aluno da sala?");
-adicionarNome(arvore, 154, "O nome tem tres silabas?");
-
-adicionarNome(arvore, 155, "Ravi");
-adicionarNome(arvore, 156, "Ravi");
-
-adicionarNome(arvore, 157, "Pablo");
-adicionarNome(arvore, 158, "Luis");
-
-adicionarNome(arvore, 159, "Aiko");
-adicionarNome(arvore, 160, "Aiko");
-
-adicionarNome(arvore, 161, "Aiko");
-adicionarNome(arvore, 162, "Aiko");
-
-adicionarNome(arvore, 163, "Aiko");
-adicionarNome(arvore, 164, "Aiko");
-
-adicionarNome(arvore, 165, "Aiko");
-adicionarNome(arvore, 166, "Aiko");
-
-adicionarNome(arvore, 167, "Micaela");
-adicionarNome(arvore, 168, "Micaela");
-
-adicionarNome(arvore, 169, "Iara");
-adicionarNome(arvore, 170, "Iara");
-
-adicionarNome(arvore, 171, "Alice Vilarvas");
-adicionarNome(arvore, 172, "Alice Vilarvas");
-
-adicionarNome(arvore, 173, "Alice Vitoria");
-adicionarNome(arvore, 174, "Alice Vitoria");
-
-adicionarNome(arvore, 175, "Helena");
-adicionarNome(arvore, 176, "Helena");
-
-adicionarNome(arvore, 177, "Helena");
-adicionarNome(arvore, 178, "Helena");
-
-adicionarNome(arvore, 179, "Helena");
-adicionarNome(arvore, 180, "Helena");
-
-adicionarNome(arvore, 181, "Helena");
-adicionarNome(arvore, 182, "Helena");
-
-adicionarNome(arvore, 183, "Isabella");
-adicionarNome(arvore, 184, "Gabrielle");
-
-adicionarNome(arvore, 185, "Sofia");
-adicionarNome(arvore, 186, "Isadora");
-
-adicionarNome(arvore, 187, "Yasmin");
-adicionarNome(arvore, 188, "Yasmin");
-
-adicionarNome(arvore, 189, "Beatriz");
-adicionarNome(arvore, 190, "Beatriz");
-
-adicionarNome(arvore, 191, "Diego");
-adicionarNome(arvore, 192, "Diego");
-
-adicionarNome(arvore, 193, "Diego");
-adicionarNome(arvore, 194, "Diego");
-
-adicionarNome(arvore, 195, "Danilo");
-adicionarNome(arvore, 196, "Danilo");
-
-adicionarNome(arvore, 197, "Danilo");
-adicionarNome(arvore, 198, "Danilo");
-
-adicionarNome(arvore, 199, "Matheus");
-adicionarNome(arvore, 200, "Matheus");
-
-adicionarNome(arvore, 201, "Ivo");
-adicionarNome(arvore, 202, "Ivo");
-
-adicionarNome(arvore, 203, "Carlos");
-adicionarNome(arvore, 204, "Carlos");
-
-adicionarNome(arvore, 205, "Clewton");
-adicionarNome(arvore, 206, "Clewton");
-
-adicionarNome(arvore, 207, "Julio");
-adicionarNome(arvore, 208, "Julio");
-
-adicionarNome(arvore, 209, "Julio");
-adicionarNome(arvore, 210, "Julio");
-
-adicionarNome(arvore, 211, "Julio");
-adicionarNome(arvore, 212, "Julio");
-
-adicionarNome(arvore, 213, "Julio");
-adicionarNome(arvore, 214, "Julio");
-
-adicionarNome(arvore, 215, "Ricardo");
-adicionarNome(arvore, 216, "Ricardo");
-
-adicionarNome(arvore, 217, "Ricardo");
-adicionarNome(arvore, 218, "Ricardo");
-
-adicionarNome(arvore, 219, "Ricardo");
-adicionarNome(arvore, 220, "Ricardo");
-
-adicionarNome(arvore, 221, "Ricardo");
-adicionarNome(arvore, 222, "Ricardo");
-
-adicionarNome(arvore, 223, "Bianca");
-adicionarNome(arvore, 224, "Bianca");
-
-adicionarNome(arvore, 225, "Bianca");
-adicionarNome(arvore, 226, "Bianca");
-
-adicionarNome(arvore, 227, "Bianca");
-adicionarNome(arvore, 228, "Bianca");
-
-adicionarNome(arvore, 229, "Bianca");
-adicionarNome(arvore, 230, "Bianca");
-
-adicionarNome(arvore, 231, "Glaucia");
-adicionarNome(arvore, 232, "Glaucia");
-
-adicionarNome(arvore, 233, "Solange");
-adicionarNome(arvore, 234, "Stella");
-
-adicionarNome(arvore, 235, "Milena");
-adicionarNome(arvore, 236, "Milena");
-
-adicionarNome(arvore, 237, "Noemy");
-adicionarNome(arvore, 238, "Noemy");
-
-adicionarNome(arvore, 239, "Andrea");
-adicionarNome(arvore, 240, "Andrea");
-
-adicionarNome(arvore, 241, "Andrea");
-adicionarNome(arvore, 242, "Andrea");
-
-adicionarNome(arvore, 243, "Andrea");
-adicionarNome(arvore, 244, "Andrea");
-
-adicionarNome(arvore, 245, "Andrea");
-adicionarNome(arvore, 246, "Andrea");
-
-adicionarNome(arvore, 247, "Rosane");
-adicionarNome(arvore, 248, "Rosane");
-
-adicionarNome(arvore, 249, "Rosane");
-adicionarNome(arvore, 250, "Rosane");
-
-adicionarNome(arvore, 251, "Rosane");
-adicionarNome(arvore, 252, "Rosane");
-
-adicionarNome(arvore, 253, "Rosane");
-adicionarNome(arvore, 254, "Rosane");
-
-adicionarNome(arvore, 255, "Miguel Santana");
-adicionarNome(arvore, 256, "Miguel Santana");
-
-adicionarNome(arvore, 257, "Miguel Santana");
-adicionarNome(arvore, 258, "Miguel Santana");
-
-adicionarNome(arvore, 259, "Miguel Santana");
-adicionarNome(arvore, 260, "Miguel Santana");
-
-adicionarNome(arvore, 261, "Miguel Santana");
-adicionarNome(arvore, 262, "Miguel Santana");
-
-adicionarNome(arvore, 263, "Gabriel Teodoro");
-adicionarNome(arvore, 264, "Gabriel Teodoro");
-
-adicionarNome(arvore, 265, "Gabriel Teodoro");
-adicionarNome(arvore, 266, "Gabriel Teodoro");
-
-adicionarNome(arvore, 267, "Enzo");
-adicionarNome(arvore, 268, "Enzo");
-
-adicionarNome(arvore, 269, "Ezequiel");
-adicionarNome(arvore, 270, "Ezequiel");
-
-adicionarNome(arvore, 271, "Lucas Miura");
-adicionarNome(arvore, 272, "Lucas Miura");
-
-adicionarNome(arvore, 273, "Lucas Miura");
-adicionarNome(arvore, 274, "Lucas Miura");
-
-adicionarNome(arvore, 275, "Rafael Toshio");
-adicionarNome(arvore, 276, "Rafael Toshio");
-
-adicionarNome(arvore, 277, "Rafael Toshio");
-adicionarNome(arvore, 278, "Rafael Toshio");
-
-adicionarNome(arvore, 279, "Pedro");
-adicionarNome(arvore, 280, "Pedro");
-
-adicionarNome(arvore, 281, "Joao");
-adicionarNome(arvore, 282, "Esta sempre de Bone?");
-
-adicionarNome(arvore, 283, "Miguel Nunes");
-adicionarNome(arvore, 284, "Miguel Nunes");
-
-adicionarNome(arvore, 285, "Miguel Nunes");
-adicionarNome(arvore, 286, "Miguel Nunes");
-
-adicionarNome(arvore, 287, "Felipe");
-adicionarNome(arvore, 288, "Felipe");
-
-adicionarNome(arvore, 289, "Felipe");
-adicionarNome(arvore, 290, "Felipe");
-
-adicionarNome(arvore, 291, "Lucas Clevelaro");
-adicionarNome(arvore, 292, "Lucas Clevelaro");
-
-adicionarNome(arvore, 293, "Lucas Clevelaro");
-adicionarNome(arvore, 294, "Lucas Clevelaro");
-
-adicionarNome(arvore, 295, "Kaiky");
-adicionarNome(arvore, 296, "Kaiky");
-
-adicionarNome(arvore, 297, "Kaiky");
-adicionarNome(arvore, 298, "Kaiky");
-
-adicionarNome(arvore, 299, "Kaiky");
-adicionarNome(arvore, 300, "Kaiky");
-
-adicionarNome(arvore, 301, "Kaiky");
-adicionarNome(arvore, 302, "Kaiky");
-
-adicionarNome(arvore, 303, "Breno");
-adicionarNome(arvore, 304, "Breno");
-
-adicionarNome(arvore, 305, "Breno");
-adicionarNome(arvore, 306, "Breno");
-
-adicionarNome(arvore, 307, "Gabriel Nunes");
-adicionarNome(arvore, 308, "Guilherme");
-
-adicionarNome(arvore, 309, "Helio");
-adicionarNome(arvore, 310, "Theo");
-
-adicionarNome(arvore, 311, "Ravi");
-adicionarNome(arvore, 312, "Ravi");
-
-adicionarNome(arvore, 313, "Ravi");
-adicionarNome(arvore, 314, "Ravi");
-
-adicionarNome(arvore, 315, "Pablo");
-adicionarNome(arvore, 316, "Pablo");
-
-adicionarNome(arvore, 317, "Luis");
-adicionarNome(arvore, 318, "Luis");
-
-adicionarNome(arvore, 319, "Aiko");
-adicionarNome(arvore, 320, "Aiko");
-
-adicionarNome(arvore, 321, "Aiko");
-adicionarNome(arvore, 322, "Aiko");
-
-adicionarNome(arvore, 323, "Aiko");
-adicionarNome(arvore, 324, "Aiko");
-
-adicionarNome(arvore, 325, "Aiko");
-adicionarNome(arvore, 326, "Aiko");
-
-adicionarNome(arvore, 327, "Aiko");
-adicionarNome(arvore, 328, "Aiko");
-
-adicionarNome(arvore, 329, "Aiko");
-adicionarNome(arvore, 330, "Aiko");
-
-adicionarNome(arvore, 331, "Aiko");
-adicionarNome(arvore, 332, "Aiko");
-
-adicionarNome(arvore, 333, "Aiko");
-adicionarNome(arvore, 334, "Aiko");
-
-adicionarNome(arvore, 335, "Micaela");
-adicionarNome(arvore, 336, "Micaela");
-
-adicionarNome(arvore, 337, "Micaela");
-adicionarNome(arvore, 338, "Micaela");
-
-adicionarNome(arvore, 339, "Iara");
-adicionarNome(arvore, 340, "Iara");
-
-adicionarNome(arvore, 341, "Iara");
-adicionarNome(arvore, 342, "Iara");
-
-adicionarNome(arvore, 343, "Alice Vilarvas");
-adicionarNome(arvore, 344, "Alice Vilarvas");
-
-adicionarNome(arvore, 345, "Alice Vilarvas");
-adicionarNome(arvore, 346, "Alice Vilarvas");
-
-adicionarNome(arvore, 347, "Alice Vitoria");
-adicionarNome(arvore, 348, "Alice Vitoria");
-
-adicionarNome(arvore, 349, "Alice Vitoria");
-adicionarNome(arvore, 350, "Alice Vitoria");
-
-adicionarNome(arvore, 351, "Helena");
-adicionarNome(arvore, 352, "Helena");
-
-adicionarNome(arvore, 353, "Helena");
-adicionarNome(arvore, 354, "Helena");
-
-adicionarNome(arvore, 355, "Helena");
-adicionarNome(arvore, 356, "Helena");
-
-adicionarNome(arvore, 357, "Helena");
-adicionarNome(arvore, 358, "Helena");
-
-adicionarNome(arvore, 359, "Helena");
-adicionarNome(arvore, 360, "Helena");
-
-adicionarNome(arvore, 361, "Helena");
-adicionarNome(arvore, 362, "Helena");
-
-adicionarNome(arvore, 363, "Helena");
-adicionarNome(arvore, 364, "Helena");
-
-adicionarNome(arvore, 365, "Helena");
-adicionarNome(arvore, 366, "Helena");
-
-adicionarNome(arvore, 367, "Isabella");
-adicionarNome(arvore, 368, "Isabella");
-
-adicionarNome(arvore, 369, "Gabrielle");
-adicionarNome(arvore, 370, "Gabrielle");
-
-adicionarNome(arvore, 371, "Sofia");
-adicionarNome(arvore, 372, "Sofia");
-
-adicionarNome(arvore, 373, "Isadora");
-adicionarNome(arvore, 374, "Isadora");
-
-adicionarNome(arvore, 375, "Yasmin");
-adicionarNome(arvore, 376, "Yasmin");
-
-adicionarNome(arvore, 377, "Yasmin");
-adicionarNome(arvore, 378, "Yasmin");
-
-adicionarNome(arvore, 379, "Beatriz");
-adicionarNome(arvore, 380, "Beatriz");
-
-adicionarNome(arvore, 381, "Beatriz");
-adicionarNome(arvore, 382, "Beatriz");
-
-adicionarNome(arvore, 383, "Diego");
-adicionarNome(arvore, 384, "Diego");
-
-adicionarNome(arvore, 385, "Diego");
-adicionarNome(arvore, 386, "Diego");
-
-adicionarNome(arvore, 387, "Diego");
-adicionarNome(arvore, 388, "Diego");
-
-adicionarNome(arvore, 389, "Diego");
-adicionarNome(arvore, 390, "Diego");
-
-adicionarNome(arvore, 391, "Danilo");
-adicionarNome(arvore, 392, "Danilo");
-
-adicionarNome(arvore, 393, "Danilo");
-adicionarNome(arvore, 394, "Danilo");
-
-adicionarNome(arvore, 395, "Danilo");
-adicionarNome(arvore, 396, "Danilo");
-
-adicionarNome(arvore, 397, "Danilo");
-adicionarNome(arvore, 398, "Danilo");
-
-adicionarNome(arvore, 399, "Matheus");
-adicionarNome(arvore, 400, "Matheus");
-
-adicionarNome(arvore, 401, "Matheus");
-adicionarNome(arvore, 402, "Matheus");
-
-adicionarNome(arvore, 403, "Ivo");
-adicionarNome(arvore, 404, "Ivo");
-
-adicionarNome(arvore, 405, "Ivo");
-adicionarNome(arvore, 406, "Ivo");
-
-adicionarNome(arvore, 407, "Carlos");
-adicionarNome(arvore, 408, "Carlos");
-
-adicionarNome(arvore, 409, "Carlos");
-adicionarNome(arvore, 410, "Carlos");
-
-adicionarNome(arvore, 411, "Clewton");
-adicionarNome(arvore, 412, "Clewton");
-
-adicionarNome(arvore, 413, "Clewton");
-adicionarNome(arvore, 414, "Clewton");
-
-adicionarNome(arvore, 415, "Julio");
-adicionarNome(arvore, 416, "Julio");
-
-adicionarNome(arvore, 417, "Julio");
-adicionarNome(arvore, 418, "Julio");
-
-adicionarNome(arvore, 419, "Julio");
-adicionarNome(arvore, 420, "Julio");
-
-adicionarNome(arvore, 421, "Julio");
-adicionarNome(arvore, 422, "Julio");
-
-adicionarNome(arvore, 423, "Julio");
-adicionarNome(arvore, 424, "Julio");
-
-adicionarNome(arvore, 425, "Julio");
-adicionarNome(arvore, 426, "Julio");
-
-adicionarNome(arvore, 427, "Julio");
-adicionarNome(arvore, 428, "Julio");
-
-adicionarNome(arvore, 429, "Julio");
-adicionarNome(arvore, 430, "Julio");
-
-adicionarNome(arvore, 431, "Ricardo");
-adicionarNome(arvore, 432, "Ricardo");
-
-adicionarNome(arvore, 433, "Ricardo");
-adicionarNome(arvore, 434, "Ricardo");
-
-adicionarNome(arvore, 435, "Ricardo");
-adicionarNome(arvore, 436, "Ricardo");
-
-adicionarNome(arvore, 437, "Ricardo");
-adicionarNome(arvore, 438, "Ricardo");
-
-adicionarNome(arvore, 439, "Ricardo");
-adicionarNome(arvore, 440, "Ricardo");
-
-adicionarNome(arvore, 441, "Ricardo");
-adicionarNome(arvore, 442, "Ricardo");
-
-adicionarNome(arvore, 443, "Ricardo");
-adicionarNome(arvore, 444, "Ricardo");
-
-adicionarNome(arvore, 445, "Ricardo");
-adicionarNome(arvore, 446, "Ricardo");
-
-adicionarNome(arvore, 447, "Bianca");
-adicionarNome(arvore, 448, "Bianca");
-
-adicionarNome(arvore, 449, "Bianca");
-adicionarNome(arvore, 450, "Bianca");
-
-adicionarNome(arvore, 451, "Bianca");
-adicionarNome(arvore, 452, "Bianca");
-
-adicionarNome(arvore, 453, "Bianca");
-adicionarNome(arvore, 454, "Bianca");
-
-adicionarNome(arvore, 455, "Bianca");
-adicionarNome(arvore, 456, "Bianca");
-
-adicionarNome(arvore, 457, "Bianca");
-adicionarNome(arvore, 458, "Bianca");
-
-adicionarNome(arvore, 459, "Bianca");
-adicionarNome(arvore, 460, "Bianca");
-
-adicionarNome(arvore, 461, "Bianca");
-adicionarNome(arvore, 462, "Bianca");
-
-adicionarNome(arvore, 463, "Glaucia");
-adicionarNome(arvore, 464, "Glaucia");
-
-adicionarNome(arvore, 465, "Glaucia");
-adicionarNome(arvore, 466, "Glaucia");
-
-adicionarNome(arvore, 467, "Solange");
-adicionarNome(arvore, 468, "Solange");
-
-adicionarNome(arvore, 469, "Stella");
-adicionarNome(arvore, 470, "Stella");
-
-adicionarNome(arvore, 471, "Milena");
-adicionarNome(arvore, 472, "Milena");
-
-adicionarNome(arvore, 473, "Milena");
-adicionarNome(arvore, 474, "Milena");
-
-adicionarNome(arvore, 475, "Noemy");
-adicionarNome(arvore, 476, "Noemy");
-
-adicionarNome(arvore, 477, "Noemy");
-adicionarNome(arvore, 478, "Noemy");
-
-adicionarNome(arvore, 479, "Andrea");
-adicionarNome(arvore, 480, "Andrea");
-
-adicionarNome(arvore, 481, "Andrea");
-adicionarNome(arvore, 482, "Andrea");
-
-adicionarNome(arvore, 483, "Andrea");
-adicionarNome(arvore, 484, "Andrea");
-
-adicionarNome(arvore, 485, "Andrea");
-adicionarNome(arvore, 486, "Andrea");
-
-adicionarNome(arvore, 487, "Andrea");
-adicionarNome(arvore, 488, "Andrea");
-
-adicionarNome(arvore, 489, "Andrea");
-adicionarNome(arvore, 490, "Andrea");
-
-adicionarNome(arvore, 491, "Andrea");
-adicionarNome(arvore, 492, "Andrea");
-
-adicionarNome(arvore, 493, "Andrea");
-adicionarNome(arvore, 494, "Andrea");
-
-adicionarNome(arvore, 495, "Rosane");
-adicionarNome(arvore, 496, "Rosane");
-
-adicionarNome(arvore, 497, "Rosane");
-adicionarNome(arvore, 498, "Rosane");
-
-adicionarNome(arvore, 499, "Rosane");
-adicionarNome(arvore, 500, "Rosane");
-
-adicionarNome(arvore, 501, "Rosane");
-adicionarNome(arvore, 502, "Rosane");
-
-adicionarNome(arvore, 503, "Rosane");
-adicionarNome(arvore, 504, "Rosane");
-
-adicionarNome(arvore, 505, "Rosane");
-adicionarNome(arvore, 506, "Rosane");
-
-adicionarNome(arvore, 507, "Rosane");
-adicionarNome(arvore, 508, "Rosane");
-
-adicionarNome(arvore, 509, "Rosane");
-adicionarNome(arvore, 510, "Rosane");
-
-adicionarNome(arvore, 511, "Miguel Santana");
-adicionarNome(arvore, 512, "Miguel Santana");
-
-adicionarNome(arvore, 513, "Miguel Santana");
-adicionarNome(arvore, 514, "Miguel Santana");
-
-adicionarNome(arvore, 515, "Miguel Santana");
-adicionarNome(arvore, 516, "Miguel Santana");
-
-adicionarNome(arvore, 517, "Miguel Santana");
-adicionarNome(arvore, 518, "Miguel Santana");
-
-adicionarNome(arvore, 519, "Miguel Santana");
-adicionarNome(arvore, 520, "Miguel Santana");
-
-adicionarNome(arvore, 521, "Miguel Santana");
-adicionarNome(arvore, 522, "Miguel Santana");
-
-adicionarNome(arvore, 523, "Miguel Santana");
-adicionarNome(arvore, 524, "Miguel Santana");
-
-adicionarNome(arvore, 525, "Miguel Santana");
-adicionarNome(arvore, 526, "Miguel Santana");
-
-adicionarNome(arvore, 527, "Gabriel Teodoro");
-adicionarNome(arvore, 528, "Gabriel Teodoro");
-
-adicionarNome(arvore, 529, "Gabriel Teodoro");
-adicionarNome(arvore, 530, "Gabriel Teodoro");
-
-adicionarNome(arvore, 531, "Gabriel Teodoro");
-adicionarNome(arvore, 532, "Gabriel Teodoro");
-
-adicionarNome(arvore, 533, "Gabriel Teodoro");
-adicionarNome(arvore, 534, "Gabriel Teodoro");
-
-adicionarNome(arvore, 535, "Enzo");
-adicionarNome(arvore, 536, "Enzo");
-
-adicionarNome(arvore, 537, "Enzo");
-adicionarNome(arvore, 538, "Enzo");
-
-adicionarNome(arvore, 539, "Ezequiel");
-adicionarNome(arvore, 540, "Ezequiel");
-
-adicionarNome(arvore, 541, "Ezequiel");
-adicionarNome(arvore, 542, "Ezequiel");
-
-adicionarNome(arvore, 543, "Luca Miura");
-adicionarNome(arvore, 544, "Luca Miura");
-
-adicionarNome(arvore, 545, "Luca Miura");
-adicionarNome(arvore, 546, "Luca Miura");
-
-adicionarNome(arvore, 547, "Luca Miura");
-adicionarNome(arvore, 548, "Luca Miura");
-
-adicionarNome(arvore, 549, "Luca Miura");
-adicionarNome(arvore, 550, "Luca Miura");
-
-adicionarNome(arvore, 551, "Rafael Toshio");
-adicionarNome(arvore, 552, "Rafael Toshio");
-
-adicionarNome(arvore, 553, "Rafael Toshio");
-adicionarNome(arvore, 554, "Rafael Toshio");
-
-adicionarNome(arvore, 555, "Rafael Toshio");
-adicionarNome(arvore, 556, "Rafael Toshio");
-
-adicionarNome(arvore, 557, "Rafael Toshio");
-adicionarNome(arvore, 558, "Rafael Toshio");
-
-adicionarNome(arvore, 559, "Pedro");
-adicionarNome(arvore, 560, "Pedro");
-
-adicionarNome(arvore, 561, "Pedro");
-adicionarNome(arvore, 562, "Pedro");
-
-adicionarNome(arvore, 563, "Joao");
-adicionarNome(arvore, 564, "Joao");
-
-adicionarNome(arvore, 565, "Rafael Mota");
-adicionarNome(arvore, 566, "Efrain");
-
-adicionarNome(arvore, 567, "Miguel Nunes");
-adicionarNome(arvore, 568, "Miguel Nunes");
-
-adicionarNome(arvore, 569, "Miguel Nunes");
-adicionarNome(arvore, 570, "Miguel Nunes");
-
-adicionarNome(arvore, 571, "Miguel Nunes");
-adicionarNome(arvore, 572, "Miguel Nunes");
-
-adicionarNome(arvore, 573, "Miguel Nunes");
-adicionarNome(arvore, 574, "Miguel Nunes");
-
-adicionarNome(arvore, 575, "Felipe");
-adicionarNome(arvore, 576, "Felipe");
-
-adicionarNome(arvore, 577, "Felipe");
-adicionarNome(arvore, 578, "Felipe");
-
-adicionarNome(arvore, 579, "Felipe");
-adicionarNome(arvore, 580, "Felipe");
-
-adicionarNome(arvore, 581, "Felipe");
-adicionarNome(arvore, 582, "Felipe");
-
-adicionarNome(arvore, 583, "Lucas Clevelaro");
-adicionarNome(arvore, 584, "Lucas Clevelaro");
-
-adicionarNome(arvore, 585, "Lucas Clevelaro");
-adicionarNome(arvore, 586, "Lucas Clevelaro");
-
-adicionarNome(arvore, 587, "Lucas Clevelaro");
-adicionarNome(arvore, 588, "Lucas Clevelaro");
-
-adicionarNome(arvore, 589, "Lucas Clevelaro");
-adicionarNome(arvore, 590, "Lucas Clevelaro");
-
-adicionarNome(arvore, 591, "Kaiky");
-adicionarNome(arvore, 592, "Kaiky");
-
-adicionarNome(arvore, 593, "Kaiky");
-adicionarNome(arvore, 594, "Kaiky");
-
-adicionarNome(arvore, 595, "Kaiky");
-adicionarNome(arvore, 596, "Kaiky");
-
-adicionarNome(arvore, 597, "Kaiky");
-adicionarNome(arvore, 598, "Kaiky");
-
-adicionarNome(arvore, 599, "Kaiky");
-adicionarNome(arvore, 600, "Kaiky");
-
-adicionarNome(arvore, 601, "Kaiky");
-adicionarNome(arvore, 602, "Kaiky");
-
-adicionarNome(arvore, 603, "Kaiky");
-adicionarNome(arvore, 604, "Kaiky");
-
-adicionarNome(arvore, 605, "Kaiky");
-adicionarNome(arvore, 606, "Kaiky");
-
-adicionarNome(arvore, 607, "Breno");
-adicionarNome(arvore, 608, "Breno");
-
-adicionarNome(arvore, 609, "Breno");
-adicionarNome(arvore, 610, "Breno");
-
-adicionarNome(arvore, 611, "Breno");
-adicionarNome(arvore, 612, "Breno");
-
-adicionarNome(arvore, 613, "Breno");
-adicionarNome(arvore, 614, "Breno");
-
-adicionarNome(arvore, 615, "Gabriel Nunes");
-adicionarNome(arvore, 616, "Gabriel Nunes");
-
-adicionarNome(arvore, 617, "Guilherme");
-adicionarNome(arvore, 618, "Guilherme");
-
-adicionarNome(arvore, 619, "Helio");
-adicionarNome(arvore, 620, "Helio");
-
-adicionarNome(arvore, 621, "Theo");
-adicionarNome(arvore, 622, "Theo");
-
-adicionarNome(arvore, 623, "Ravi");
-adicionarNome(arvore, 624, "Ravi");
-
-adicionarNome(arvore, 625, "Ravi");
-adicionarNome(arvore, 626, "Ravi");
-
-adicionarNome(arvore, 627, "Ravi");
-adicionarNome(arvore, 628, "Ravi");
-
-adicionarNome(arvore, 629, "Ravi");
-adicionarNome(arvore, 630, "Ravi");
-
-adicionarNome(arvore, 631, "Pablo");
-adicionarNome(arvore, 632, "Pablo");
-
-adicionarNome(arvore, 633, "Pablo");
-adicionarNome(arvore, 634, "Pablo");
-
-adicionarNome(arvore, 635, "Luis");
-adicionarNome(arvore, 636, "Luis");
-
-adicionarNome(arvore, 637, "Luis");
-adicionarNome(arvore, 638, "Luis");
-
-adicionarNome(arvore, 639, "Aiko");
-adicionarNome(arvore, 640, "Aiko");
-
-adicionarNome(arvore, 641, "Aiko");
-adicionarNome(arvore, 642, "Aiko");
-
-adicionarNome(arvore, 643, "Aiko");
-adicionarNome(arvore, 644, "Aiko");
-
-adicionarNome(arvore, 645, "Aiko");
-adicionarNome(arvore, 646, "Aiko");
-
-adicionarNome(arvore, 647, "Aiko");
-adicionarNome(arvore, 648, "Aiko");
-
-adicionarNome(arvore, 649, "Aiko");
-adicionarNome(arvore, 650, "Aiko");
-
-adicionarNome(arvore, 651, "Aiko");
-adicionarNome(arvore, 652, "Aiko");
-
-adicionarNome(arvore, 653, "Aiko");
-adicionarNome(arvore, 654, "Aiko");
-
-adicionarNome(arvore, 655, "Aiko");
-adicionarNome(arvore, 656, "Aiko");
-
-adicionarNome(arvore, 657, "Aiko");
-adicionarNome(arvore, 658, "Aiko");
-
-adicionarNome(arvore, 659, "Aiko");
-adicionarNome(arvore, 660, "Aiko");
-
-adicionarNome(arvore, 661, "Aiko");
-adicionarNome(arvore, 662, "Aiko");
-
-adicionarNome(arvore, 663, "Aiko");
-adicionarNome(arvore, 664, "Aiko");
-
-adicionarNome(arvore, 665, "Aiko");
-adicionarNome(arvore, 666, "Aiko");
-
-adicionarNome(arvore, 667, "Aiko");
-adicionarNome(arvore, 668, "Aiko");
-
-adicionarNome(arvore, 669, "Aiko");
-adicionarNome(arvore, 670, "Aiko");
-
-adicionarNome(arvore, 671, "Micaela");
-adicionarNome(arvore, 672, "Micaela");
-
-adicionarNome(arvore, 673, "Micaela");
-adicionarNome(arvore, 674, "Micaela");
-
-adicionarNome(arvore, 675, "Micaela");
-adicionarNome(arvore, 676, "Micaela");
-
-adicionarNome(arvore, 677, "Micaela");
-adicionarNome(arvore, 678, "Micaela");
-
-adicionarNome(arvore, 679, "Iara");
-adicionarNome(arvore, 680, "Iara");
-
-adicionarNome(arvore, 681, "Iara");
-adicionarNome(arvore, 682, "Iara");
-
-adicionarNome(arvore, 683, "Iara");
-adicionarNome(arvore, 684, "Iara");
-
-adicionarNome(arvore, 685, "Iara");
-adicionarNome(arvore, 686, "Iara");
-
-adicionarNome(arvore, 687, "Alice Vilarvas");
-adicionarNome(arvore, 688, "Alice Vilarvas");
-
-adicionarNome(arvore, 689, "Alice Vilarvas");
-adicionarNome(arvore, 690, "Alice Vilarvas");
-
-adicionarNome(arvore, 691, "Alice Vilarvas");
-adicionarNome(arvore, 692, "Alice Vilarvas");
-
-adicionarNome(arvore, 693, "Alice Vilarvas");
-adicionarNome(arvore, 694, "Alice Vilarvas");
-
-adicionarNome(arvore, 695, "Alice Vitoria");
-adicionarNome(arvore, 696, "Alice Vitoria");
-
-adicionarNome(arvore, 697, "Alice Vitoria");
-adicionarNome(arvore, 698, "Alice Vitoria");
-
-adicionarNome(arvore, 699, "Alice Vitoria");
-adicionarNome(arvore, 700, "Alice Vitoria");
-
-adicionarNome(arvore, 701, "Alice Vitoria");
-adicionarNome(arvore, 702, "Alice Vitoria");
-
-adicionarNome(arvore, 703, "Helena");
-adicionarNome(arvore, 704, "Helena");
-
-adicionarNome(arvore, 705, "Helena");
-adicionarNome(arvore, 706, "Helena");
-
-adicionarNome(arvore, 707, "Helena");
-adicionarNome(arvore, 708, "Helena");
-
-adicionarNome(arvore, 709, "Helena");
-adicionarNome(arvore, 710, "Helena");
-
-adicionarNome(arvore, 711, "Helena");
-adicionarNome(arvore, 712, "Helena");
-
-adicionarNome(arvore, 713, "Helena");
-adicionarNome(arvore, 714, "Helena");
-
-adicionarNome(arvore, 715, "Helena");
-adicionarNome(arvore, 716, "Helena");
-
-adicionarNome(arvore, 717, "Helena");
-adicionarNome(arvore, 718, "Helena");
-
-adicionarNome(arvore, 719, "Helena");
-adicionarNome(arvore, 720, "Helena");
-
-adicionarNome(arvore, 721, "Helena");
-adicionarNome(arvore, 722, "Helena");
-
-adicionarNome(arvore, 723, "Helena");
-adicionarNome(arvore, 724, "Helena");
-
-adicionarNome(arvore, 725, "Helena");
-adicionarNome(arvore, 726, "Helena");
-
-adicionarNome(arvore, 727, "Helena");
-adicionarNome(arvore, 728, "Helena");
-
-adicionarNome(arvore, 729, "Helena");
-adicionarNome(arvore, 730, "Helena");
-
-adicionarNome(arvore, 731, "Helena");
-adicionarNome(arvore, 732, "Helena");
-
-adicionarNome(arvore, 733, "Helena");
-adicionarNome(arvore, 734, "Helena");
-
-adicionarNome(arvore, 735, "Isabella");
-adicionarNome(arvore, 736, "Isabella");
-
-adicionarNome(arvore, 737, "Isabella");
-adicionarNome(arvore, 738, "Isabella");
-
-adicionarNome(arvore, 739, "Gabrielle");
-adicionarNome(arvore, 740, "Gabrielle");
-
-adicionarNome(arvore, 741, "Gabrielle");
-adicionarNome(arvore, 742, "Gabrielle");
-
-adicionarNome(arvore, 743, "Sofia");
-adicionarNome(arvore, 744, "Sofia");
-
-adicionarNome(arvore, 745, "Sofia");
-adicionarNome(arvore, 746, "Sofia");
-
-adicionarNome(arvore, 747, "Isadora");
-adicionarNome(arvore, 748, "Isadora");
-
-adicionarNome(arvore, 749, "Isadora");
-adicionarNome(arvore, 750, "Isadora");
-
-adicionarNome(arvore, 751, "Yasmin");
-adicionarNome(arvore, 752, "Yasmin");
-
-adicionarNome(arvore, 753, "Yasmin");
-adicionarNome(arvore, 754, "Yasmin");
-
-adicionarNome(arvore, 755, "Yasmin");
-adicionarNome(arvore, 756, "Yasmin");
-
-adicionarNome(arvore, 757, "Yasmin");
-adicionarNome(arvore, 758, "Yasmin");
-
-adicionarNome(arvore, 759, "Beatriz");
-adicionarNome(arvore, 760, "Beatriz");
-
-adicionarNome(arvore, 761, "Beatriz");
-adicionarNome(arvore, 762, "Beatriz");
-
-adicionarNome(arvore, 763, "Beatriz");
-adicionarNome(arvore, 764, "Beatriz");
-
-adicionarNome(arvore, 765, "Beatriz");
-adicionarNome(arvore, 766, "Beatriz");
-
-adicionarNome(arvore, 767, "Diego");
-adicionarNome(arvore, 768, "Diego");
-
-adicionarNome(arvore, 769, "Diego");
-adicionarNome(arvore, 770, "Diego");
-
-adicionarNome(arvore, 771, "Diego");
-adicionarNome(arvore, 772, "Diego");
-
-adicionarNome(arvore, 773, "Diego");
-adicionarNome(arvore, 774, "Diego");
-
-adicionarNome(arvore, 775, "Diego");
-adicionarNome(arvore, 776, "Diego");
-
-adicionarNome(arvore, 777, "Diego");
-adicionarNome(arvore, 778, "Diego");
-
-adicionarNome(arvore, 779, "Diego");
-adicionarNome(arvore, 780, "Diego");
-
-adicionarNome(arvore, 781, "Diego");
-adicionarNome(arvore, 782, "Diego");
-
-adicionarNome(arvore, 783, "Danilo");
-adicionarNome(arvore, 784, "Danilo");
-
-adicionarNome(arvore, 785, "Danilo");
-adicionarNome(arvore, 786, "Danilo");
-
-adicionarNome(arvore, 787, "Danilo");
-adicionarNome(arvore, 788, "Danilo");
-
-adicionarNome(arvore, 789, "Danilo");
-adicionarNome(arvore, 790, "Danilo");
-
-adicionarNome(arvore, 791, "Danilo");
-adicionarNome(arvore, 792, "Danilo");
-
-adicionarNome(arvore, 793, "Danilo");
-adicionarNome(arvore, 794, "Danilo");
-
-adicionarNome(arvore, 795, "Danilo");
-adicionarNome(arvore, 796, "Danilo");
-
-adicionarNome(arvore, 797, "Danilo");
-adicionarNome(arvore, 798, "Danilo");
-
-adicionarNome(arvore, 799, "Matheus");
-adicionarNome(arvore, 800, "Matheus");
-
-adicionarNome(arvore, 801, "Matheus");
-adicionarNome(arvore, 802, "Matheus");
-
-adicionarNome(arvore, 803, "Matheus");
-adicionarNome(arvore, 804, "Matheus");
-
-adicionarNome(arvore, 805, "Matheus");
-adicionarNome(arvore, 806, "Matheus");
-
-adicionarNome(arvore, 807, "Ivo");
-adicionarNome(arvore, 808, "Ivo");
-
-adicionarNome(arvore, 809, "Ivo");
-adicionarNome(arvore, 810, "Ivo");
-
-adicionarNome(arvore, 811, "Ivo");
-adicionarNome(arvore, 812, "Ivo");
-
-adicionarNome(arvore, 813, "Ivo");
-adicionarNome(arvore, 814, "Ivo");
-
-adicionarNome(arvore, 815, "Carlos");
-adicionarNome(arvore, 816, "Carlos");
-
-adicionarNome(arvore, 817, "Carlos");
-adicionarNome(arvore, 818, "Carlos");
-
-adicionarNome(arvore, 819, "Carlos");
-adicionarNome(arvore, 820, "Carlos");
-
-adicionarNome(arvore, 821, "Carlos");
-adicionarNome(arvore, 822, "Carlos");
-
-adicionarNome(arvore, 823, "Clewton");
-adicionarNome(arvore, 824, "Clewton");
-
-adicionarNome(arvore, 825, "Clewton");
-adicionarNome(arvore, 826, "Clewton");
-
-adicionarNome(arvore, 827, "Clewton");
-adicionarNome(arvore, 828, "Clewton");
-
-adicionarNome(arvore, 829, "Clewton");
-adicionarNome(arvore, 830, "Clewton");
-
-adicionarNome(arvore, 831, "Julio");
-adicionarNome(arvore, 832, "Julio");
-
-adicionarNome(arvore, 833, "Julio");
-adicionarNome(arvore, 834, "Julio");
-
-adicionarNome(arvore, 835, "Julio");
-adicionarNome(arvore, 836, "Julio");
-
-adicionarNome(arvore, 837, "Julio");
-adicionarNome(arvore, 838, "Julio");
-
-adicionarNome(arvore, 839, "Julio");
-adicionarNome(arvore, 840, "Julio");
-
-adicionarNome(arvore, 841, "Julio");
-adicionarNome(arvore, 842, "Julio");
-
-adicionarNome(arvore, 843, "Julio");
-adicionarNome(arvore, 844, "Julio");
-
-adicionarNome(arvore, 845, "Julio");
-adicionarNome(arvore, 846, "Julio");
-
-adicionarNome(arvore, 847, "Julio");
-adicionarNome(arvore, 848, "Julio");
-
-adicionarNome(arvore, 849, "Julio");
-adicionarNome(arvore, 850, "Julio");
-
-adicionarNome(arvore, 851, "Julio");
-adicionarNome(arvore, 852, "Julio");
-
-adicionarNome(arvore, 853, "Julio");
-adicionarNome(arvore, 854, "Julio");
-
-adicionarNome(arvore, 855, "Julio");
-adicionarNome(arvore, 856, "Julio");
-
-adicionarNome(arvore, 857, "Julio");
-adicionarNome(arvore, 858, "Julio");
-
-adicionarNome(arvore, 859, "Julio");
-adicionarNome(arvore, 860, "Julio");
-
-adicionarNome(arvore, 861, "Julio");
-adicionarNome(arvore, 862, "Julio");
-
-adicionarNome(arvore, 863, "Ricardo");
-adicionarNome(arvore, 864, "Ricardo");
-
-adicionarNome(arvore, 865, "Ricardo");
-adicionarNome(arvore, 866, "Ricardo");
-
-adicionarNome(arvore, 867, "Ricardo");
-adicionarNome(arvore, 868, "Ricardo");
-
-adicionarNome(arvore, 869, "Ricardo");
-adicionarNome(arvore, 870, "Ricardo");
-
-adicionarNome(arvore, 871, "Ricardo");
-adicionarNome(arvore, 872, "Ricardo");
-
-adicionarNome(arvore, 873, "Ricardo");
-adicionarNome(arvore, 874, "Ricardo");
-
-adicionarNome(arvore, 875, "Ricardo");
-adicionarNome(arvore, 876, "Ricardo");
-
-adicionarNome(arvore, 877, "Ricardo");
-adicionarNome(arvore, 878, "Ricardo");
-
-adicionarNome(arvore, 879, "Ricardo");
-adicionarNome(arvore, 880, "Ricardo");
-
-adicionarNome(arvore, 881, "Ricardo");
-adicionarNome(arvore, 882, "Ricardo");
-
-adicionarNome(arvore, 883, "Ricardo");
-adicionarNome(arvore, 884, "Ricardo");
-
-adicionarNome(arvore, 885, "Ricardo");
-adicionarNome(arvore, 886, "Ricardo");
-
-adicionarNome(arvore, 887, "Ricardo");
-adicionarNome(arvore, 888, "Ricardo");
-
-adicionarNome(arvore, 889, "Ricardo");
-adicionarNome(arvore, 890, "Ricardo");
-
-adicionarNome(arvore, 891, "Ricardo");
-adicionarNome(arvore, 892, "Ricardo");
-
-adicionarNome(arvore, 893, "Ricardo");
-adicionarNome(arvore, 894, "Ricardo");
-
-adicionarNome(arvore, 895, "Bianca");
-adicionarNome(arvore, 896, "Bianca");
-
-adicionarNome(arvore, 897, "Bianca");
-adicionarNome(arvore, 898, "Bianca");
-
-adicionarNome(arvore, 899, "Bianca");
-adicionarNome(arvore, 900, "Bianca");
-
-adicionarNome(arvore, 901, "Bianca");
-adicionarNome(arvore, 902, "Bianca");
-
-adicionarNome(arvore, 903, "Bianca");
-adicionarNome(arvore, 904, "Bianca");
-
-adicionarNome(arvore, 905, "Bianca");
-adicionarNome(arvore, 906, "Bianca");
-
-adicionarNome(arvore, 907, "Bianca");
-adicionarNome(arvore, 908, "Bianca");
-
-adicionarNome(arvore, 909, "Bianca");
-adicionarNome(arvore, 910, "Bianca");
-
-adicionarNome(arvore, 911, "Bianca");
-adicionarNome(arvore, 912, "Bianca");
-
-adicionarNome(arvore, 913, "Bianca");
-adicionarNome(arvore, 914, "Bianca");
-
-adicionarNome(arvore, 915, "Bianca");
-adicionarNome(arvore, 916, "Bianca");
-
-adicionarNome(arvore, 917, "Bianca");
-adicionarNome(arvore, 918, "Bianca");
-
-adicionarNome(arvore, 919, "Bianca");
-adicionarNome(arvore, 920, "Bianca");
-
-adicionarNome(arvore, 921, "Bianca");
-adicionarNome(arvore, 922, "Bianca");
-
-adicionarNome(arvore, 923, "Bianca");
-adicionarNome(arvore, 924, "Bianca");
-
-adicionarNome(arvore, 925, "Bianca");
-adicionarNome(arvore, 926, "Bianca");
-
-adicionarNome(arvore, 927, "Glaucia");
-adicionarNome(arvore, 928, "Glaucia");
-
-adicionarNome(arvore, 929, "Glaucia");
-adicionarNome(arvore, 930, "Glaucia");
-
-adicionarNome(arvore, 931, "Glaucia");
-adicionarNome(arvore, 932, "Glaucia");
-
-adicionarNome(arvore, 933, "Glaucia");
-adicionarNome(arvore, 934, "Glaucia");
-
-adicionarNome(arvore, 935, "Solange");
-adicionarNome(arvore, 936, "Solange");
-
-adicionarNome(arvore, 937, "Solange");
-adicionarNome(arvore, 938, "Solange");
-
-adicionarNome(arvore, 939, "Stella");
-adicionarNome(arvore, 940, "Stella");
-
-adicionarNome(arvore, 941, "Stella");
-adicionarNome(arvore, 942, "Stella");
-
-adicionarNome(arvore, 943, "Milena");
-adicionarNome(arvore, 944, "Milena");
-
-adicionarNome(arvore, 945, "Milena");
-adicionarNome(arvore, 946, "Milena");
-
-adicionarNome(arvore, 947, "Milena");
-adicionarNome(arvore, 948, "Milena");
-
-adicionarNome(arvore, 949, "Milena");
-adicionarNome(arvore, 950, "Milena");
-
-adicionarNome(arvore, 951, "Noemy");
-adicionarNome(arvore, 952, "Noemy");
-
-adicionarNome(arvore, 953, "Noemy");
-adicionarNome(arvore, 954, "Noemy");
-
-adicionarNome(arvore, 955, "Noemy");
-adicionarNome(arvore, 956, "Noemy");
-
-adicionarNome(arvore, 957, "Noemy");
-adicionarNome(arvore, 958, "Noemy");
-
-adicionarNome(arvore, 959, "Andrea");
-adicionarNome(arvore, 960, "Andrea");
-
-adicionarNome(arvore, 961, "Andrea");
-adicionarNome(arvore, 962, "Andrea");
-
-adicionarNome(arvore, 963, "Andrea");
-adicionarNome(arvore, 964, "Andrea");
-
-adicionarNome(arvore, 965, "Andrea");
-adicionarNome(arvore, 966, "Andrea");
-
-adicionarNome(arvore, 967, "Andrea");
-adicionarNome(arvore, 968, "Andrea");
-
-adicionarNome(arvore, 969, "Andrea");
-adicionarNome(arvore, 970, "Andrea");
-
-adicionarNome(arvore, 971, "Andrea");
-adicionarNome(arvore, 972, "Andrea");
-
-adicionarNome(arvore, 973, "Andrea");
-adicionarNome(arvore, 974, "Andrea");
-
-adicionarNome(arvore, 975, "Andrea");
-adicionarNome(arvore, 976, "Andrea");
-
-adicionarNome(arvore, 977, "Andrea");
-adicionarNome(arvore, 978, "Andrea");
-
-adicionarNome(arvore, 979, "Andrea");
-adicionarNome(arvore, 980, "Andrea");
-
-adicionarNome(arvore, 981, "Andrea");
-adicionarNome(arvore, 982, "Andrea");
-
-adicionarNome(arvore, 983, "Andrea");
-adicionarNome(arvore, 984, "Andrea");
-
-adicionarNome(arvore, 985, "Andrea");
-adicionarNome(arvore, 986, "Andrea");
-
-adicionarNome(arvore, 987, "Andrea");
-adicionarNome(arvore, 988, "Andrea");
-
-adicionarNome(arvore, 989, "Andrea");
-adicionarNome(arvore, 990, "Andrea");
-
-adicionarNome(arvore, 991, "Rosane");
-adicionarNome(arvore, 992, "Rosane");
-
-adicionarNome(arvore, 993, "Rosane");
-adicionarNome(arvore, 994, "Rosane");
-
-adicionarNome(arvore, 995, "Rosane");
-adicionarNome(arvore, 996, "Rosane");
-
-adicionarNome(arvore, 997, "Rosane");
-adicionarNome(arvore, 998, "Rosane");
-
-adicionarNome(arvore, 999, "Rosane");
-adicionarNome(arvore, 1000, "Rosane");
-
-adicionarNome(arvore, 1001, "Rosane");
-adicionarNome(arvore, 1002, "Rosane");
-
-adicionarNome(arvore, 1003, "Rosane");
-adicionarNome(arvore, 1004, "Rosane");
-
-adicionarNome(arvore, 1005, "Rosane");
-adicionarNome(arvore, 1006, "Rosane");
-
-adicionarNome(arvore, 1007, "Rosane");
-adicionarNome(arvore, 1008, "Rosane");
-
-adicionarNome(arvore, 1009, "Rosane");
-adicionarNome(arvore, 1010, "Rosane");
-
-adicionarNome(arvore, 1011, "Rosane");
-adicionarNome(arvore, 1012, "Rosane");
-
-adicionarNome(arvore, 1013, "Rosane");
-adicionarNome(arvore, 1014, "Rosane");
-
-adicionarNome(arvore, 1015, "Rosane");
-adicionarNome(arvore, 1016, "Rosane");
-
-adicionarNome(arvore, 1017, "Rosane");
-adicionarNome(arvore, 1018, "Rosane");
-
-adicionarNome(arvore, 1019, "Rosane");
-adicionarNome(arvore, 1020, "Rosane");
-
-adicionarNome(arvore, 1021, "Rosane");
-adicionarNome(arvore, 1022, "Rosane");
+arvore 0 "Eh aluno?"
+arvore 1 "Eh do sexo Masculino?"
+arvore 2 "Eh do sexo Masculino?"
+arvore 3 "Usa oculos?"
+arvore 4 "Usa oculos?"
+arvore 5 "Usa Oculos?"
+arvore 6 "Usa Oculos?"
+arvore 7 "Possui Cabelo Cacheado?"
+arvore 8 "Fez o trabalho de artes com a musica Hear me Now? (bonequinhos brilhantes no escuro)"
+arvore 9 "Tem Descendencia Japonesa?"
+arvore 10 "Tem Descendencia Japonesa?"
+arvore 11 "Da aula de Tecnico?"
+arvore 12 "Da aula de Tcnico?"
+arvore 13 "Da aula de Tcnico?"
+arvore 14 "Possui cabelo curto (impossivel de prender)?"
+arvore 15 "Eh repreentante de classe?"
+arvore 16 "Possui descendencia asiatica?"
+arvore 17 "Possui cabelo claro?"
+arvore 18 "Tem a letra E no nome?"
+arvore 19 "Aiko"
+arvore 20 "Possui cabelo cacheado?"
+arvore 21 "Helena"
+arvore 22 "Possui cabelo pintado aparente (ate 05/10)?"
+arvore 23 "Eh canhoto?"
+arvore 24 "Eh de humanas?"
+arvore 25 "Julio"
+arvore 26 "Ricardo"
+arvore 27 "Bianca"
+arvore 28 "Eh de humanas?"
+arvore 29 "Andrea"
+arvore 30 "Rosane"
+arvore 31 "Miguel Santana"
+arvore 32 "Sabe fazer barulho de gota?"
+arvore 33 "Eh representante do CONCAN?"
+arvore 34 "Eh canhoto?"
+arvore 35 "Tocou flauta na aula?"
+arvore 36 "Kaiky"
+arvore 37 "Nao tem cabelo cacheado?"
+arvore 38 "Veio de escola com ensino Valdurf?"
+arvore 39 "Aiko"
+arvore 40 "Aiko"
+arvore 41 "Senta na primeira fileira?"
+arvore 42 "Fez kpop no trabalho de artes?"
+arvore 43 "Helena"
+arvore 44 "Helena"
+arvore 45 "Possui duas letras repetidas em sequencia dentro do proprio nome?"
+arvore 46 "Estudou anteriormente com o Gilberto?"
+arvore 47 "Diego"
+arvore 48 "Danilo"
+arvore 49 "Vem de moto pra escola?"
+arvore 50 "Da mais de duas aulas na semana?"
+arvore 51 "Julio"
+arvore 52 "Julio"
+arvore 53 "Ricardo"
+arvore 54 "Ricardo"
+arvore 55 "Bianca"
+arvore 56 "Bianca"
+arvore 57 "Da mais de duas aulas na semana?"
+arvore 58 "Tem filho (Fantoche)?"
+arvore 59 "Andrea"
+arvore 60 "Andrea"
+arvore 61 "Rosane"
+arvore 62 "Rosane"
+arvore 63 "Miguel Santana"
+arvore 64 "Miguel Santana"
+arvore 65 "Gabriel Teodoro"
+arvore 66 "Tem namoro publico?"
+arvore 67 "Lucas Miura"
+arvore 68 "Rafael Toshio"
+arvore 69 "Miguel Nunes"
+arvore 70 "Eh a pessoa mais alta do 1 info?"
+arvore 71 "Felipe"
+arvore 72 "Lucas Clevelaro"
+arvore 73 "Kaiky"
+arvore 74 "Kaiky"
+arvore 75 "Breno"
+arvore 76 "O nome comeca com G?"
+arvore 77 "Ravi"
+arvore 78 "Normalmente senta na frente?"
+arvore 79 "Aiko"
+arvore 80 "Aiko"
+arvore 81 "Aiko"
+arvore 82 "Aiko"
+arvore 83 "Micaela"
+arvore 84 "Iara"
+arvore 85 "Alice vilarvas"
+arvore 86 "Alice vitoria"
+arvore 87 "Helena"
+arvore 88 "Helena"
+arvore 89 "Helena"
+arvore 90 "Helena"
+arvore 91 "Toca baixo?"
+arvore 92 "Tem botton na bolsa?"
+arvore 93 "Yasmin"
+arvore 94 "Beatriz"
+arvore 95 "Diego"
+arvore 96 "Diego"
+arvore 97 "Danilo"
+arvore 98 "Danilo"
+arvore 99 "Matheus"
+arvore 100 "Ivo"
+arvore 101 "Carlos"
+arvore 102 "Clewton"
+arvore 103 "Julio"
+arvore 104 "Julio"
+arvore 105 "Julio"
+arvore 106 "Julio"
+arvore 107 "Ricardo"
+arvore 108 "Ricardo"
+arvore 109 "Ricardo"
+arvore 110 "Ricardo"
+arvore 111 "Bianca"
+arvore 112 "Bianca"
+arvore 113 "Bianca"
+arvore 114 "Bianca"
+arvore 115 "Gluacia"
+arvore 116 "Fez pesca na aula?"
+arvore 117 "Milena"
+arvore 118 "Noemy"
+arvore 119 "Andrea"
+arvore 120 "Andrea"
+arvore 121 "Andrea"
+arvore 122 "Andrea"
+arvore 123 "Rosana"
+arvore 124 "Rosana"
+arvore 125 "Rosane"
+arvore 126 "Rosane"
+arvore 127 "Miguel Santana"
+arvore 128 "Miguel Santana"
+arvore 129 "Miguel Santana"
+arvore 130 "Miguel Santana"
+arvore 131 "Gabriel Teodoro"
+arvore 132 "Gabriel Teodoro"
+arvore 133 "Enzo"
+arvore 134 "Ezequiel"
+arvore 135 "Lucas Miura"
+arvore 136 "Lucas Miura"
+arvore 137 "Rafael Toshio"
+arvore 138 "Rafael Toshio"
+arvore 139 "Pedro"
+arvore 140 "Eh um nome extremamente comum?"
+arvore 141 "Miguel Nunes"
+arvore 142 "Miguel Nunes"
+arvore 143 "Felipe"
+arvore 144 "Felipe"
+arvore 145 "Lucas Clevelaro"
+arvore 146 "Lucas Clevelaro"
+arvore 147 "Kaiky"
+arvore 148 "Kaiky"
+arvore 149 "Kaiky"
+arvore 150 "Kaiky"
+arvore 151 "Breno"
+arvore 152 "Breno"
+arvore 153 "Tem o mesmo sobrenome de outro aluno da sala?"
+arvore 154 "O nome tem tres silabas?"
+arvore 155 "Ravi"
+arvore 156 "Ravi"
+arvore 157 "Pablo"
+arvore 158 "Luis"
+arvore 159 "Aiko"
+arvore 160 "Aiko"
+arvore 161 "Aiko"
+arvore 162 "Aiko"
+arvore 163 "Aiko"
+arvore 164 "Aiko"
+arvore 165 "Aiko"
+arvore 166 "Aiko"
+arvore 167 "Micaela"
+arvore 168 "Micaela"
+arvore 169 "Iara"
+arvore 170 "Iara"
+arvore 171 "Alice Vilarvas"
+arvore 172 "Alice Vilarvas"
+arvore 173 "Alice Vitoria"
+arvore 174 "Alice Vitoria"
+arvore 175 "Helena"
+arvore 176 "Helena"
+arvore 177 "Helena"
+arvore 178 "Helena"
+arvore 179 "Helena"
+arvore 180 "Helena"
+arvore 181 "Helena"
+arvore 182 "Helena"
+arvore 183 "Isabella"
+arvore 184 "Gabrielle"
+arvore 185 "Sofia"
+arvore 186 "Isadora"
+arvore 187 "Yasmin"
+arvore 188 "Yasmin"
+arvore 189 "Beatriz"
+arvore 190 "Beatriz"
+arvore 191 "Diego"
+arvore 192 "Diego"
+arvore 193 "Diego"
+arvore 194 "Diego"
+arvore 195 "Danilo"
+arvore 196 "Danilo"
+arvore 197 "Danilo"
+arvore 198 "Danilo"
+arvore 199 "Matheus"
+arvore 200 "Matheus"
+arvore 201 "Ivo"
+arvore 202 "Ivo"
+arvore 203 "Carlos"
+arvore 204 "Carlos"
+arvore 205 "Clewton"
+arvore 206 "Clewton"
+arvore 207 "Julio"
+arvore 208 "Julio"
+arvore 209 "Julio"
+arvore 210 "Julio"
+arvore 211 "Julio"
+arvore 212 "Julio"
+arvore 213 "Julio"
+arvore 214 "Julio"
+arvore 215 "Ricardo"
+arvore 216 "Ricardo"
+arvore 217 "Ricardo"
+arvore 218 "Ricardo"
+arvore 219 "Ricardo"
+arvore 220 "Ricardo"
+arvore 221 "Ricardo"
+arvore 222 "Ricardo"
+arvore 223 "Bianca"
+arvore 224 "Bianca"
+arvore 225 "Bianca"
+arvore 226 "Bianca"
+arvore 227 "Bianca"
+arvore 228 "Bianca"
+arvore 229 "Bianca"
+arvore 230 "Bianca"
+arvore 231 "Glaucia"
+arvore 232 "Glaucia"
+arvore 233 "Solange"
+arvore 234 "Stella"
+arvore 235 "Milena"
+arvore 236 "Milena"
+arvore 237 "Noemy"
+arvore 238 "Noemy"
+arvore 239 "Andrea"
+arvore 240 "Andrea"
+arvore 241 "Andrea"
+arvore 242 "Andrea"
+arvore 243 "Andrea"
+arvore 244 "Andrea"
+arvore 245 "Andrea"
+arvore 246 "Andrea"
+arvore 247 "Rosane"
+arvore 248 "Rosane"
+arvore 249 "Rosane"
+arvore 250 "Rosane"
+arvore 251 "Rosane"
+arvore 252 "Rosane"
+arvore 253 "Rosane"
+arvore 254 "Rosane"
+arvore 255 "Miguel Santana"
+arvore 256 "Miguel Santana"
+arvore 257 "Miguel Santana"
+arvore 258 "Miguel Santana"
+arvore 259 "Miguel Santana"
+arvore 260 "Miguel Santana"
+arvore 261 "Miguel Santana"
+arvore 262 "Miguel Santana"
+arvore 263 "Gabriel Teodoro"
+arvore 264 "Gabriel Teodoro"
+arvore 265 "Gabriel Teodoro"
+arvore 266 "Gabriel Teodoro"
+arvore 267 "Enzo"
+arvore 268 "Enzo"
+arvore 269 "Ezequiel"
+arvore 270 "Ezequiel"
+arvore 271 "Lucas Miura"
+arvore 272 "Lucas Miura"
+arvore 273 "Lucas Miura"
+arvore 274 "Lucas Miura"
+arvore 275 "Rafael Toshio"
+arvore 276 "Rafael Toshio"
+arvore 277 "Rafael Toshio"
+arvore 278 "Rafael Toshio"
+arvore 279 "Pedro"
+arvore 280 "Pedro"
+arvore 281 "Joao"
+arvore 282 "Esta sempre de Bone?"
+arvore 283 "Miguel Nunes"
+arvore 284 "Miguel Nunes"
+arvore 285 "Miguel Nunes"
+arvore 286 "Miguel Nunes"
+arvore 287 "Felipe"
+arvore 288 "Felipe"
+arvore 289 "Felipe"
+arvore 290 "Felipe"
+arvore 291 "Lucas Clevelaro"
+arvore 292 "Lucas Clevelaro"
+arvore 293 "Lucas Clevelaro"
+arvore 294 "Lucas Clevelaro"
+arvore 295 "Kaiky"
+arvore 296 "Kaiky"
+arvore 297 "Kaiky"
+arvore 298 "Kaiky"
+arvore 299 "Kaiky"
+arvore 300 "Kaiky"
+arvore 301 "Kaiky"
+arvore 302 "Kaiky"
+arvore 303 "Breno"
+arvore 304 "Breno"
+arvore 305 "Breno"
+arvore 306 "Breno"
+arvore 307 "Gabriel Nunes"
+arvore 308 "Guilherme"
+arvore 309 "Helio"
+arvore 310 "Theo"
+arvore 311 "Ravi"
+arvore 312 "Ravi"
+arvore 313 "Ravi"
+arvore 314 "Ravi"
+arvore 315 "Pablo"
+arvore 316 "Pablo"
+arvore 317 "Luis"
+arvore 318 "Luis"
+arvore 319 "Aiko"
+arvore 320 "Aiko"
+arvore 321 "Aiko"
+arvore 322 "Aiko"
+arvore 323 "Aiko"
+arvore 324 "Aiko"
+arvore 325 "Aiko"
+arvore 326 "Aiko"
+arvore 327 "Aiko"
+arvore 328 "Aiko"
+arvore 329 "Aiko"
+arvore 330 "Aiko"
+arvore 331 "Aiko"
+arvore 332 "Aiko"
+arvore 333 "Aiko"
+arvore 334 "Aiko"
+arvore 335 "Micaela"
+arvore 336 "Micaela"
+arvore 337 "Micaela"
+arvore 338 "Micaela"
+arvore 339 "Iara"
+arvore 340 "Iara"
+arvore 341 "Iara"
+arvore 342 "Iara"
+arvore 343 "Alice Vilarvas"
+arvore 344 "Alice Vilarvas"
+arvore 345 "Alice Vilarvas"
+arvore 346 "Alice Vilarvas"
+arvore 347 "Alice Vitoria"
+arvore 348 "Alice Vitoria"
+arvore 349 "Alice Vitoria"
+arvore 350 "Alice Vitoria"
+arvore 351 "Helena"
+arvore 352 "Helena"
+arvore 353 "Helena"
+arvore 354 "Helena"
+arvore 355 "Helena"
+arvore 356 "Helena"
+arvore 357 "Helena"
+arvore 358 "Helena"
+arvore 359 "Helena"
+arvore 360 "Helena"
+arvore 361 "Helena"
+arvore 362 "Helena"
+arvore 363 "Helena"
+arvore 364 "Helena"
+arvore 365 "Helena"
+arvore 366 "Helena"
+arvore 367 "Isabella"
+arvore 368 "Isabella"
+arvore 369 "Gabrielle"
+arvore 370 "Gabrielle"
+arvore 371 "Sofia"
+arvore 372 "Sofia"
+arvore 373 "Isadora"
+arvore 374 "Isadora"
+arvore 375 "Yasmin"
+arvore 376 "Yasmin"
+arvore 377 "Yasmin"
+arvore 378 "Yasmin"
+arvore 379 "Beatriz"
+arvore 380 "Beatriz"
+arvore 381 "Beatriz"
+arvore 382 "Beatriz"
+arvore 383 "Diego"
+arvore 384 "Diego"
+arvore 385 "Diego"
+arvore 386 "Diego"
+arvore 387 "Diego"
+arvore 388 "Diego"
+arvore 389 "Diego"
+arvore 390 "Diego"
+arvore 391 "Danilo"
+arvore 392 "Danilo"
+arvore 393 "Danilo"
+arvore 394 "Danilo"
+arvore 395 "Danilo"
+arvore 396 "Danilo"
+arvore 397 "Danilo"
+arvore 398 "Danilo"
+arvore 399 "Matheus"
+arvore 400 "Matheus"
+arvore 401 "Matheus"
+arvore 402 "Matheus"
+arvore 403 "Ivo"
+arvore 404 "Ivo"
+arvore 405 "Ivo"
+arvore 406 "Ivo"
+arvore 407 "Carlos"
+arvore 408 "Carlos"
+arvore 409 "Carlos"
+arvore 410 "Carlos"
+arvore 411 "Clewton"
+arvore 412 "Clewton"
+arvore 413 "Clewton"
+arvore 414 "Clewton"
+arvore 415 "Julio"
+arvore 416 "Julio"
+arvore 417 "Julio"
+arvore 418 "Julio"
+arvore 419 "Julio"
+arvore 420 "Julio"
+arvore 421 "Julio"
+arvore 422 "Julio"
+arvore 423 "Julio"
+arvore 424 "Julio"
+arvore 425 "Julio"
+arvore 426 "Julio"
+arvore 427 "Julio"
+arvore 428 "Julio"
+arvore 429 "Julio"
+arvore 430 "Julio"
+arvore 431 "Ricardo"
+arvore 432 "Ricardo"
+arvore 433 "Ricardo"
+arvore 434 "Ricardo"
+arvore 435 "Ricardo"
+arvore 436 "Ricardo"
+arvore 437 "Ricardo"
+arvore 438 "Ricardo"
+arvore 439 "Ricardo"
+arvore 440 "Ricardo"
+arvore 441 "Ricardo"
+arvore 442 "Ricardo"
+arvore 443 "Ricardo"
+arvore 444 "Ricardo"
+arvore 445 "Ricardo"
+arvore 446 "Ricardo"
+arvore 447 "Bianca"
+arvore 448 "Bianca"
+arvore 449 "Bianca"
+arvore 450 "Bianca"
+arvore 451 "Bianca"
+arvore 452 "Bianca"
+arvore 453 "Bianca"
+arvore 454 "Bianca"
+arvore 455 "Bianca"
+arvore 456 "Bianca"
+arvore 457 "Bianca"
+arvore 458 "Bianca"
+arvore 459 "Bianca"
+arvore 460 "Bianca"
+arvore 461 "Bianca"
+arvore 462 "Bianca"
+arvore 463 "Glaucia"
+arvore 464 "Glaucia"
+arvore 465 "Glaucia"
+arvore 466 "Glaucia"
+arvore 467 "Solange"
+arvore 468 "Solange"
+arvore 469 "Stella"
+arvore 470 "Stella"
+arvore 471 "Milena"
+arvore 472 "Milena"
+arvore 473 "Milena"
+arvore 474 "Milena"
+arvore 475 "Noemy"
+arvore 476 "Noemy"
+arvore 477 "Noemy"
+arvore 478 "Noemy"
+arvore 479 "Andrea"
+arvore 480 "Andrea"
+arvore 481 "Andrea"
+arvore 482 "Andrea"
+arvore 483 "Andrea"
+arvore 484 "Andrea"
+arvore 485 "Andrea"
+arvore 486 "Andrea"
+arvore 487 "Andrea"
+arvore 488 "Andrea"
+arvore 489 "Andrea"
+arvore 490 "Andrea"
+arvore 491 "Andrea"
+arvore 492 "Andrea"
+arvore 493 "Andrea"
+arvore 494 "Andrea"
+arvore 495 "Rosane"
+arvore 496 "Rosane"
+arvore 497 "Rosane"
+arvore 498 "Rosane"
+arvore 499 "Rosane"
+arvore 500 "Rosane"
+arvore 501 "Rosane"
+arvore 502 "Rosane"
+arvore 503 "Rosane"
+arvore 504 "Rosane"
+arvore 505 "Rosane"
+arvore 506 "Rosane"
+arvore 507 "Rosane"
+arvore 508 "Rosane"
+arvore 509 "Rosane"
+arvore 510 "Rosane"
+arvore 511 "Miguel Santana"
+arvore 512 "Miguel Santana"
+arvore 513 "Miguel Santana"
+arvore 514 "Miguel Santana"
+arvore 515 "Miguel Santana"
+arvore 516 "Miguel Santana"
+arvore 517 "Miguel Santana"
+arvore 518 "Miguel Santana"
+arvore 519 "Miguel Santana"
+arvore 520 "Miguel Santana"
+arvore 521 "Miguel Santana"
+arvore 522 "Miguel Santana"
+arvore 523 "Miguel Santana"
+arvore 524 "Miguel Santana"
+arvore 525 "Miguel Santana"
+arvore 526 "Miguel Santana"
+arvore 527 "Gabriel Teodoro"
+arvore 528 "Gabriel Teodoro"
+arvore 529 "Gabriel Teodoro"
+arvore 530 "Gabriel Teodoro"
+arvore 531 "Gabriel Teodoro"
+arvore 532 "Gabriel Teodoro"
+arvore 533 "Gabriel Teodoro"
+arvore 534 "Gabriel Teodoro"
+arvore 535 "Enzo"
+arvore 536 "Enzo"
+arvore 537 "Enzo"
+arvore 538 "Enzo"
+arvore 539 "Ezequiel"
+arvore 540 "Ezequiel"
+arvore 541 "Ezequiel"
+arvore 542 "Ezequiel"
+arvore 543 "Luca Miura"
+arvore 544 "Luca Miura"
+arvore 545 "Luca Miura"
+arvore 546 "Luca Miura"
+arvore 547 "Luca Miura"
+arvore 548 "Luca Miura"
+arvore 549 "Luca Miura"
+arvore 550 "Luca Miura"
+arvore 551 "Rafael Toshio"
+arvore 552 "Rafael Toshio"
+arvore 553 "Rafael Toshio"
+arvore 554 "Rafael Toshio"
+arvore 555 "Rafael Toshio"
+arvore 556 "Rafael Toshio"
+arvore 557 "Rafael Toshio"
+arvore 558 "Rafael Toshio"
+arvore 559 "Pedro"
+arvore 560 "Pedro"
+arvore 561 "Pedro"
+arvore 562 "Pedro"
+arvore 563 "Joao"
+arvore 564 "Joao"
+arvore 565 "Rafael Mota"
+arvore 566 "Efrain"
+arvore 567 "Miguel Nunes"
+arvore 568 "Miguel Nunes"
+arvore 569 "Miguel Nunes"
+arvore 570 "Miguel Nunes"
+arvore 571 "Miguel Nunes"
+arvore 572 "Miguel Nunes"
+arvore 573 "Miguel Nunes"
+arvore 574 "Miguel Nunes"
+arvore 575 "Felipe"
+arvore 576 "Felipe"
+arvore 577 "Felipe"
+arvore 578 "Felipe"
+arvore 579 "Felipe"
+arvore 580 "Felipe"
+arvore 581 "Felipe"
+arvore 582 "Felipe"
+arvore 583 "Lucas Clevelaro"
+arvore 584 "Lucas Clevelaro"
+arvore 585 "Lucas Clevelaro"
+arvore 586 "Lucas Clevelaro"
+arvore 587 "Lucas Clevelaro"
+arvore 588 "Lucas Clevelaro"
+arvore 589 "Lucas Clevelaro"
+arvore 590 "Lucas Clevelaro"
+arvore 591 "Kaiky"
+arvore 592 "Kaiky"
+arvore 593 "Kaiky"
+arvore 594 "Kaiky"
+arvore 595 "Kaiky"
+arvore 596 "Kaiky"
+arvore 597 "Kaiky"
+arvore 598 "Kaiky"
+arvore 599 "Kaiky"
+arvore 600 "Kaiky"
+arvore 601 "Kaiky"
+arvore 602 "Kaiky"
+arvore 603 "Kaiky"
+arvore 604 "Kaiky"
+arvore 605 "Kaiky"
+arvore 606 "Kaiky"
+arvore 607 "Breno"
+arvore 608 "Breno"
+arvore 609 "Breno"
+arvore 610 "Breno"
+arvore 611 "Breno"
+arvore 612 "Breno"
+arvore 613 "Breno"
+arvore 614 "Breno"
+arvore 615 "Gabriel Nunes"
+arvore 616 "Gabriel Nunes"
+arvore 617 "Guilherme"
+arvore 618 "Guilherme"
+arvore 619 "Helio"
+arvore 620 "Helio"
+arvore 621 "Theo"
+arvore 622 "Theo"
+arvore 623 "Ravi"
+arvore 624 "Ravi"
+arvore 625 "Ravi"
+arvore 626 "Ravi"
+arvore 627 "Ravi"
+arvore 628 "Ravi"
+arvore 629 "Ravi"
+arvore 630 "Ravi"
+arvore 631 "Pablo"
+arvore 632 "Pablo"
+arvore 633 "Pablo"
+arvore 634 "Pablo"
+arvore 635 "Luis"
+arvore 636 "Luis"
+arvore 637 "Luis"
+arvore 638 "Luis"
+arvore 639 "Aiko"
+arvore 640 "Aiko"
+arvore 641 "Aiko"
+arvore 642 "Aiko"
+arvore 643 "Aiko"
+arvore 644 "Aiko"
+arvore 645 "Aiko"
+arvore 646 "Aiko"
+arvore 647 "Aiko"
+arvore 648 "Aiko"
+arvore 649 "Aiko"
+arvore 650 "Aiko"
+arvore 651 "Aiko"
+arvore 652 "Aiko"
+arvore 653 "Aiko"
+arvore 654 "Aiko"
+arvore 655 "Aiko"
+arvore 656 "Aiko"
+arvore 657 "Aiko"
+arvore 658 "Aiko"
+arvore 659 "Aiko"
+arvore 660 "Aiko"
+arvore 661 "Aiko"
+arvore 662 "Aiko"
+arvore 663 "Aiko"
+arvore 664 "Aiko"
+arvore 665 "Aiko"
+arvore 666 "Aiko"
+arvore 667 "Aiko"
+arvore 668 "Aiko"
+arvore 669 "Aiko"
+arvore 670 "Aiko"
+arvore 671 "Micaela"
+arvore 672 "Micaela"
+arvore 673 "Micaela"
+arvore 674 "Micaela"
+arvore 675 "Micaela"
+arvore 676 "Micaela"
+arvore 677 "Micaela"
+arvore 678 "Micaela"
+arvore 679 "Iara"
+arvore 680 "Iara"
+arvore 681 "Iara"
+arvore 682 "Iara"
+arvore 683 "Iara"
+arvore 684 "Iara"
+arvore 685 "Iara"
+arvore 686 "Iara"
+arvore 687 "Alice Vilarvas"
+arvore 688 "Alice Vilarvas"
+arvore 689 "Alice Vilarvas"
+arvore 690 "Alice Vilarvas"
+arvore 691 "Alice Vilarvas"
+arvore 692 "Alice Vilarvas"
+arvore 693 "Alice Vilarvas"
+arvore 694 "Alice Vilarvas"
+arvore 695 "Alice Vitoria"
+arvore 696 "Alice Vitoria"
+arvore 697 "Alice Vitoria"
+arvore 698 "Alice Vitoria"
+arvore 699 "Alice Vitoria"
+arvore 700 "Alice Vitoria"
+arvore 701 "Alice Vitoria"
+arvore 702 "Alice Vitoria"
+arvore 703 "Helena"
+arvore 704 "Helena"
+arvore 705 "Helena"
+arvore 706 "Helena"
+arvore 707 "Helena"
+arvore 708 "Helena"
+arvore 709 "Helena"
+arvore 710 "Helena"
+arvore 711 "Helena"
+arvore 712 "Helena"
+arvore 713 "Helena"
+arvore 714 "Helena"
+arvore 715 "Helena"
+arvore 716 "Helena"
+arvore 717 "Helena"
+arvore 718 "Helena"
+arvore 719 "Helena"
+arvore 720 "Helena"
+arvore 721 "Helena"
+arvore 722 "Helena"
+arvore 723 "Helena"
+arvore 724 "Helena"
+arvore 725 "Helena"
+arvore 726 "Helena"
+arvore 727 "Helena"
+arvore 728 "Helena"
+arvore 729 "Helena"
+arvore 730 "Helena"
+arvore 731 "Helena"
+arvore 732 "Helena"
+arvore 733 "Helena"
+arvore 734 "Helena"
+arvore 735 "Isabella"
+arvore 736 "Isabella"
+arvore 737 "Isabella"
+arvore 738 "Isabella"
+arvore 739 "Gabrielle"
+arvore 740 "Gabrielle"
+arvore 741 "Gabrielle"
+arvore 742 "Gabrielle"
+arvore 743 "Sofia"
+arvore 744 "Sofia"
+arvore 745 "Sofia"
+arvore 746 "Sofia"
+arvore 747 "Isadora"
+arvore 748 "Isadora"
+arvore 749 "Isadora"
+arvore 750 "Isadora"
+arvore 751 "Yasmin"
+arvore 752 "Yasmin"
+arvore 753 "Yasmin"
+arvore 754 "Yasmin"
+arvore 755 "Yasmin"
+arvore 756 "Yasmin"
+arvore 757 "Yasmin"
+arvore 758 "Yasmin"
+arvore 759 "Beatriz"
+arvore 760 "Beatriz"
+arvore 761 "Beatriz"
+arvore 762 "Beatriz"
+arvore 763 "Beatriz"
+arvore 764 "Beatriz"
+arvore 765 "Beatriz"
+arvore 766 "Beatriz"
+arvore 767 "Diego"
+arvore 768 "Diego"
+arvore 769 "Diego"
+arvore 770 "Diego"
+arvore 771 "Diego"
+arvore 772 "Diego"
+arvore 773 "Diego"
+arvore 774 "Diego"
+arvore 775 "Diego"
+arvore 776 "Diego"
+arvore 777 "Diego"
+arvore 778 "Diego"
+arvore 779 "Diego"
+arvore 780 "Diego"
+arvore 781 "Diego"
+arvore 782 "Diego"
+arvore 783 "Danilo"
+arvore 784 "Danilo"
+arvore 785 "Danilo"
+arvore 786 "Danilo"
+arvore 787 "Danilo"
+arvore 788 "Danilo"
+arvore 789 "Danilo"
+arvore 790 "Danilo"
+arvore 791 "Danilo"
+arvore 792 "Danilo"
+arvore 793 "Danilo"
+arvore 794 "Danilo"
+arvore 795 "Danilo"
+arvore 796 "Danilo"
+arvore 797 "Danilo"
+arvore 798 "Danilo"
+arvore 799 "Matheus"
+arvore 800 "Matheus"
+arvore 801 "Matheus"
+arvore 802 "Matheus"
+arvore 803 "Matheus"
+arvore 804 "Matheus"
+arvore 805 "Matheus"
+arvore 806 "Matheus"
+arvore 807 "Ivo"
+arvore 808 "Ivo"
+arvore 809 "Ivo"
+arvore 810 "Ivo"
+arvore 811 "Ivo"
+arvore 812 "Ivo"
+arvore 813 "Ivo"
+arvore 814 "Ivo"
+arvore 815 "Carlos"
+arvore 816 "Carlos"
+arvore 817 "Carlos"
+arvore 818 "Carlos"
+arvore 819 "Carlos"
+arvore 820 "Carlos"
+arvore 821 "Carlos"
+arvore 822 "Carlos"
+arvore 823 "Clewton"
+arvore 824 "Clewton"
+arvore 825 "Clewton"
+arvore 826 "Clewton"
+arvore 827 "Clewton"
+arvore 828 "Clewton"
+arvore 829 "Clewton"
+arvore 830 "Clewton"
+arvore 831 "Julio"
+arvore 832 "Julio"
+arvore 833 "Julio"
+arvore 834 "Julio"
+arvore 835 "Julio"
+arvore 836 "Julio"
+arvore 837 "Julio"
+arvore 838 "Julio"
+arvore 839 "Julio"
+arvore 840 "Julio"
+arvore 841 "Julio"
+arvore 842 "Julio"
+arvore 843 "Julio"
+arvore 844 "Julio"
+arvore 845 "Julio"
+arvore 846 "Julio"
+arvore 847 "Julio"
+arvore 848 "Julio"
+arvore 849 "Julio"
+arvore 850 "Julio"
+arvore 851 "Julio"
+arvore 852 "Julio"
+arvore 853 "Julio"
+arvore 854 "Julio"
+arvore 855 "Julio"
+arvore 856 "Julio"
+arvore 857 "Julio"
+arvore 858 "Julio"
+arvore 859 "Julio"
+arvore 860 "Julio"
+arvore 861 "Julio"
+arvore 862 "Julio"
+arvore 863 "Ricardo"
+arvore 864 "Ricardo"
+arvore 865 "Ricardo"
+arvore 866 "Ricardo"
+arvore 867 "Ricardo"
+arvore 868 "Ricardo"
+arvore 869 "Ricardo"
+arvore 870 "Ricardo"
+arvore 871 "Ricardo"
+arvore 872 "Ricardo"
+arvore 873 "Ricardo"
+arvore 874 "Ricardo"
+arvore 875 "Ricardo"
+arvore 876 "Ricardo"
+arvore 877 "Ricardo"
+arvore 878 "Ricardo"
+arvore 879 "Ricardo"
+arvore 880 "Ricardo"
+arvore 881 "Ricardo"
+arvore 882 "Ricardo"
+arvore 883 "Ricardo"
+arvore 884 "Ricardo"
+arvore 885 "Ricardo"
+arvore 886 "Ricardo"
+arvore 887 "Ricardo"
+arvore 888 "Ricardo"
+arvore 889 "Ricardo"
+arvore 890 "Ricardo"
+arvore 891 "Ricardo"
+arvore 892 "Ricardo"
+arvore 893 "Ricardo"
+arvore 894 "Ricardo"
+arvore 895 "Bianca"
+arvore 896 "Bianca"
+arvore 897 "Bianca"
+arvore 898 "Bianca"
+arvore 899 "Bianca"
+arvore 900 "Bianca"
+arvore 901 "Bianca"
+arvore 902 "Bianca"
+arvore 903 "Bianca"
+arvore 904 "Bianca"
+arvore 905 "Bianca"
+arvore 906 "Bianca"
+arvore 907 "Bianca"
+arvore 908 "Bianca"
+arvore 909 "Bianca"
+arvore 910 "Bianca"
+arvore 911 "Bianca"
+arvore 912 "Bianca"
+arvore 913 "Bianca"
+arvore 914 "Bianca"
+arvore 915 "Bianca"
+arvore 916 "Bianca"
+arvore 917 "Bianca"
+arvore 918 "Bianca"
+arvore 919 "Bianca"
+arvore 920 "Bianca"
+arvore 921 "Bianca"
+arvore 922 "Bianca"
+arvore 923 "Bianca"
+arvore 924 "Bianca"
+arvore 925 "Bianca"
+arvore 926 "Bianca"
+arvore 927 "Glaucia"
+arvore 928 "Glaucia"
+arvore 929 "Glaucia"
+arvore 930 "Glaucia"
+arvore 931 "Glaucia"
+arvore 932 "Glaucia"
+arvore 933 "Glaucia"
+arvore 934 "Glaucia"
+arvore 935 "Solange"
+arvore 936 "Solange"
+arvore 937 "Solange"
+arvore 938 "Solange"
+arvore 939 "Stella"
+arvore 940 "Stella"
+arvore 941 "Stella"
+arvore 942 "Stella"
+arvore 943 "Milena"
+arvore 944 "Milena"
+arvore 945 "Milena"
+arvore 946 "Milena"
+arvore 947 "Milena"
+arvore 948 "Milena"
+arvore 949 "Milena"
+arvore 950 "Milena"
+arvore 951 "Noemy"
+arvore 952 "Noemy"
+arvore 953 "Noemy"
+arvore 954 "Noemy"
+arvore 955 "Noemy"
+arvore 956 "Noemy"
+arvore 957 "Noemy"
+arvore 958 "Noemy"
+arvore 959 "Andrea"
+arvore 960 "Andrea"
+arvore 961 "Andrea"
+arvore 962 "Andrea"
+arvore 963 "Andrea"
+arvore 964 "Andrea"
+arvore 965 "Andrea"
+arvore 966 "Andrea"
+arvore 967 "Andrea"
+arvore 968 "Andrea"
+arvore 969 "Andrea"
+arvore 970 "Andrea"
+arvore 971 "Andrea"
+arvore 972 "Andrea"
+arvore 973 "Andrea"
+arvore 974 "Andrea"
+arvore 975 "Andrea"
+arvore 976 "Andrea"
+arvore 977 "Andrea"
+arvore 978 "Andrea"
+arvore 979 "Andrea"
+arvore 980 "Andrea"
+arvore 981 "Andrea"
+arvore 982 "Andrea"
+arvore 983 "Andrea"
+arvore 984 "Andrea"
+arvore 985 "Andrea"
+arvore 986 "Andrea"
+arvore 987 "Andrea"
+arvore 988 "Andrea"
+arvore 989 "Andrea"
+arvore 990 "Andrea"
+arvore 991 "Rosane"
+arvore 992 "Rosane"
+arvore 993 "Rosane"
+arvore 994 "Rosane"
+arvore 995 "Rosane"
+arvore 996 "Rosane"
+arvore 997 "Rosane"
+arvore 998 "Rosane"
+arvore 999 "Rosane"
+arvore 1000 "Rosane"
+arvore 1001 "Rosane"
+arvore 1002 "Rosane"
+arvore 1003 "Rosane"
+arvore 1004 "Rosane"
+arvore 1005 "Rosane"
+arvore 1006 "Rosane"
+arvore 1007 "Rosane"
+arvore 1008 "Rosane"
+arvore 1009 "Rosane"
+arvore 1010 "Rosane"
+arvore 1011 "Rosane"
+arvore 1012 "Rosane"
+arvore 1013 "Rosane"
+arvore 1014 "Rosane"
+arvore 1015 "Rosane"
+arvore 1016 "Rosane"
+arvore 1017 "Rosane"
+arvore 1018 "Rosane"
+arvore 1019 "Rosane"
+arvore 1020 "Rosane"
+arvore 1021 "Rosane"
+arvore 1022 "Rosane"

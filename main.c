@@ -4,6 +4,7 @@
 #define TAM_ARVORE 10000
 #define TAM_NOME 100
 
+char arvore[TAM_ARVORE][TAM_NOME]
 
 // Inicializa a árvore limpando as strings (colocando vazio)
 void inicializarArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
@@ -28,6 +29,7 @@ int storeStructH(char *hist){
     fclose(fp);
     return 0;
 }
+/*
 //isso aqui eh pra arvore binária, no começo e no fim do codigo, respectivamente
     //carrega dados no vetor principal
     int loadStruct(char *arvore){
@@ -63,7 +65,7 @@ int storeStructH(char *hist){
         fclose(fp);
         return 0;
     }
-
+*/
     
 // Adiciona um nome em uma posição específica
 void adicionarNome(char arvore[TAM_ARVORE][TAM_NOME], int indice, const char *nome) {
@@ -72,13 +74,48 @@ void adicionarNome(char arvore[TAM_ARVORE][TAM_NOME], int indice, const char *no
         return;
     }
 
-
     strncpy(arvore[indice], nome, TAM_NOME - 1);
     arvore[indice][TAM_NOME - 1] = '\0'; // Garante o caractere nulo no fim
-    printf("'%s' adicionado na posição %d\n", nome, indice);
+    printf("'%s' adicionado na posicao %d\n", nome, indice);
 }
 
-    
+//loada a arvore inteira do arquivo
+void fazerArvore(char arvore[TAM_ARVORE][TAM_NOME]){
+    int i=0;
+    char guardar, buffer[151];
+    FILE *arvbin = fopen("../ArvBin.txt", "r");
+    while (fscanf(arvbin, "%c", &guardar) != EOF) {
+        if (fgets(buffer, sizeof(buffer), arvbin) != NULL) {
+            if(i<11){
+                char *formatado = buffer + 9;
+                int tam = strlen(formatado);
+                formatado[tam-2] = '\0';
+                adicionarNome(arvore, i, formatado);
+            }
+            else if(i<101){
+                char *formatado = buffer + 10;
+                int tam = strlen(formatado);
+                formatado[tam-2] = '\0';
+                adicionarNome(arvore, i, formatado);
+            }
+            else if(i<1001){
+                char *formatado = buffer + 11;
+                int tam = strlen(formatado);
+                formatado[tam-2] = '\0';
+                adicionarNome(arvore, i, formatado);
+            }
+            else {
+                char *formatado = buffer + 12;
+                int tam = strlen(formatado);
+                formatado[tam-2] = '\0';
+                adicionarNome(arvore, i, formatado);
+            }
+        }
+        i++;
+    }
+    fclose(arvbin);
+}
+
 // Exibe a árvore de forma sequencial
 void exibirArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
     printf("\n--- Estrutura do Vetor ---\n");
@@ -104,7 +141,7 @@ void exibirArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
 int main() 
     //struct aluno vet[1022];
     int opc, quant;
-    char ctr, caracteristicaindestinguivel[21], nome[21];
+    char ctr, carac[21], nome[21];
     char hist[51]
     printf("Escolha o seu destino: \n")
     printf("1 - Jogar\n");
@@ -127,10 +164,10 @@ int main()
                 if(ctr==s || ctr==S){
                     printf("Qual o nome da sua pessoa?");
                     gets(nome);
-                    strncpy(hist, "Pessoa: %s - Acertada", nome);
+                    strncpy(hist, "Pessoa: %s - Errada", nome);
                     prtinf("Me fale uma caracteristica indestinguivel");
-                    gets(caracteristicaindestinguivel);
-                    quant = strlen(caracteristicaindestinguivel);
+                    gets(carac);
+                    quant = strlen(carac);
                     /*
                     algo nesse sentido
 
@@ -142,6 +179,7 @@ int main()
                 }
                 else if(ctr==n || ctr==N){
                     printf("Infelizmente continuarei a desconhecer sua persogem, obrigado por jogar!");
+                    
                 }
                 else{
                     printf("Erro no input do usuario");
