@@ -1,12 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<string.h>
 
 #define TAM_ARVORE 10000
 #define TAM_NOME 100
 
-char arvore[TAM_ARVORE][TAM_NOME]
+char arvore[TAM_ARVORE][TAM_NOME];
 
-// Inicializa a árvore limpando as strings (colocando vazio)
+// Inicializa a arvore limpando as strings (colocando vazio)
 void inicializarArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
     for (int i = 0; i < TAM_ARVORE; i++) {
         arvore[i][0] = '\0';
@@ -39,7 +40,7 @@ void mandaHistoria(const char *hist) {
 }
 
 /*
-//isso aqui eh pra arvore binária, no começo e no fim do codigo, respectivamente
+//isso aqui eh pra arvore binaria, no comeco e no fim do codigo, respectivamente
     //carrega dados no vetor principal
     int loadStruct(char *arvore){
         FILE *fp;
@@ -76,7 +77,7 @@ void mandaHistoria(const char *hist) {
     }
 */
     
-// Adiciona um nome em uma posição específica
+// Adiciona um nome em uma posicao especifica
 void adicionarNome(char arvore[TAM_ARVORE][TAM_NOME], int indice, const char *nome) {
     if (indice >= TAM_ARVORE) {
         printf("Erro: Indice %d fora dos limites da arvore!\n", indice);
@@ -92,7 +93,7 @@ void adicionarNome(char arvore[TAM_ARVORE][TAM_NOME], int indice, const char *no
 void fazerArvore(char arvore[TAM_ARVORE][TAM_NOME]){
     int i=0;
     char guardar, buffer[151];
-    FILE *arvbin = fopen("../ArvBin.txt", "r");
+    FILE *arvbin = fopen("ArvBin.txt", "r");
     while (fscanf(arvbin, "%c", &guardar) != EOF) {
         if (fgets(buffer, sizeof(buffer), arvbin) != NULL) {
             if(i<11){
@@ -125,7 +126,7 @@ void fazerArvore(char arvore[TAM_ARVORE][TAM_NOME]){
     fclose(arvbin);
 }
 
-// Exibe a árvore de forma sequencial
+// Exibe a arvore de forma sequencial
 void exibirArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
     printf("\n--- Estrutura do Vetor ---\n");
     for (int i = 0; i < TAM_ARVORE; i++) {
@@ -133,13 +134,10 @@ void exibirArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
             int esq = 2 * i + 1;
             int dir = 2 * i + 2;
 
-
             printf("[%d] Nó: %s", i, arvore[i]);
-
 
             if (esq < TAM_ARVORE && arvore[esq][0] != '\0') printf(" | Esq (%d): %s", esq, arvore[esq]);
             if (dir < TAM_ARVORE && arvore[dir][0] != '\0') printf(" | Dir (%d): %s", dir, arvore[dir]);
-
 
             printf("\n");
         }
@@ -147,21 +145,22 @@ void exibirArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
 }
 
 
-int main() 
-    char interrogacao=?;
-    char arvore[TAM_ARVORE][TAM_NOME]
-    int opc, quant, tama, i, j;
-    char ctr, vef, nome, buffer, carac[21], nome[21];
-    char hist[51]
-    printf("Escolha o seu destino: \n")
+int main() {
+    char interrogacao[2]="?";
+    int opc, quant, tama, lenght, i=0, ie, j, esq, dir;
+    char ctr, vef='?', buffer, carac[212], nome[21], nomeCerto[21];
+    char hist[151];
+    printf("Escolha o seu destino: \n");
     printf("1 - Jogar\n");
     printf("2 - Adicionar personagem\n");
     printf("3 - Mostrar arvore binaria\n");
     printf("4 - Historico geral de partidas\n");
     printf("5 - Sair\n");
-    scanf("%d", opc);
+    scanf("%d", &opc);
     while(opc<5&&opc>0){
         if(opc==1){
+            i=0;
+            vef='?';
             fazerArvore(arvore);
             printf("Entao jogaremos, mero mortal");
             while(vef=='?'){
@@ -178,38 +177,47 @@ int main()
                     i = dir;
                 }
                 else printf("Erro na leitura da opcao");
-                if(vef!=?){
-                    printf("Seu personagem eh %s? (s/n)", arvore[i])
-                    scanf(" %c", ctr);
+                tama = strlen(arvore[i]) - 1;
+                vef = arvore[i][tama];
+                if(vef!='?'){
+                    printf("Seu personagem eh %s? (s/n)", arvore[i]);
+                    strcpy(nomeCerto, arvore[i]);
+                    scanf(" %c", &ctr);
                     if(ctr=='s'||ctr=='S'){
                         printf("Sabia! Te venci muito facil");
-                        strncpy(hist, "Pessoa: %s - Acertada", arvore[i]);
+                        sprintf(hist, "Pessoa: %s - Acertada", arvore[i]);
                         guardarHist(hist);    
                     }
                     else if(ctr=='n'||ctr=='N'){
                         printf("Que pena, mas eu nao perdi, apenas desconheco a sua personagem, gostaria de fazer com que eu a conhecesse? (s/n)");
-                        scanf("%c", &ctr);
+                        scanf(" %c", &ctr);
                         if(ctr=='s' || ctr=='S'){
-                            j=0
+                            char arrvore[151]="arvore";
+                            j=0;
                             printf("Qual o nome da sua pessoa? ");
                             gets(nome);
-                            strncpy(hist, "Pessoa: %s - Errada", nome);
+                            sprintf(hist, "Pessoa: %s - Errada", nome);
                             guardarHist(hist);
-                            prtinf("Me fale uma caracteristica indestinguivel de sua pessoa: ");
+                            printf("Me fale uma caracteristica indestinguivel de sua pessoa: ");
                             gets(carac);
                             strcat(carac, interrogacao);
                             quant = strlen(carac);
-                            /*
-                            TA TUDO ERRADO, TEM QUE VER COMO FAZ
+                            sprintf(arrvore, "arvore %d %s?\n", i, carac);
+                            lenght = strlen(arrvore);
                             FILE *arvbin = fopen("ArvBin.txt", "a");
-                            while(j<i){
-                                fgets(buffer, sizeof(buffer), arvbin);
-                                j++
-                            }
-                            fwrite(carac, sizeof(char), quant, arvbin);
-                            */
+                            fwrite(arrvore, sizeof(char), lenght, arvbin);
+                            esq = 2 * i + 1;
+                            sprintf(arrvore, "arvore %d %s\n", esq, nome);
+                            lenght = strlen(arrvore);
+                            fwrite(arrvore, sizeof(char), lenght, arvbin);
+                            dir = 2 * i + 2;
+                            sprintf(arrvore, "arvore %d %s\n", dir, nomeCerto);
+                            lenght = strlen(arrvore);
+                            fwrite(arrvore, sizeof(char), lenght, arvbin);
+                            printf("Pronto, agora eu conheco %s \n", nome);
+                            fclose(arvbin);
                         }
-                        else if(ctr==n || ctr==N) {
+                        else if(ctr=='n' || ctr=='N') {
                             printf("Infelizmente continuarei a desconhecer sua persogem, obrigado por jogar!");
                             strcpy(hist, "Pessoa desconhecida - Errada");
                             guardarHist(hist);
@@ -220,25 +228,25 @@ int main()
             }
         }
         if(opc==2){
-
         }
         if(opc==3){
-            printf("Aqui esta a arvore binaria neste exato momento \n \n")
+            printf("Aqui esta a arvore binaria neste exato momento \n \n");
             exibirArvore(arvore);
         }
         if(opc==4){
             printf("Aqui esta todo o meu historico de partidas: \n");
-            mandaHistoria("Hist.txt")
+            mandaHistoria("Hist.txt");
         }
-        printf("Escolha o seu destino: \n")
+        printf("Escolha o seu destino: \n");
         printf("1 - Jogar\n");
         printf("2 - Adicionar personagem\n");
-        printf("3 - Remover personagem\n");
+        printf("3 - Mostrar arvore binaria\n");
         printf("4 - Histiorico geral de partidas\n");
         printf("5 - Sair\n");
-        scanf("%d", opc);
+        scanf("%d", &opc);
         
-        //storeStruct(vet, 3);*/
+        //storeStruct(vet, 3);
         //loadStruct(vet,3);
     }
 return 0;
+}
