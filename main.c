@@ -228,6 +228,52 @@ int main() {
             }
         }
         if(opc==2){
+            i=0;
+            vef='?';
+            fazerArvore(arvore);
+            printf("Responda as perguntas e eu saberei aprender a sua personagem:\n");
+            while(vef=='?'){
+                tama = strlen(arvore[i])-1;
+                vef = arvore[i][tama];
+                printf("%s (s/n)", arvore[i]);
+                scanf(" %c", &ctr);
+                if(ctr=='s'||ctr=='S'){
+                    int esq = 2 * i + 1;
+                    i = esq;
+                }
+                else if(ctr=='n'||ctr=='N'){
+                    int dir = 2 * i + 2;
+                    i = dir;
+                }
+                else printf("Erro na leitura da opcao");
+                tama = strlen(arvore[i]) - 1;
+                vef = arvore[i][tama];
+                if(vef!='?'){
+                    strcpy(nomeCerto, arvore[i]);
+                    char arrvore[151]="arvore";
+                    j=0;
+                    printf("Qual o nome da sua pessoa? ");
+                    gets(nome);
+                    printf("Me fale uma caracteristica indestinguivel de sua pessoa em relacao a %s: ", nomeCerto);
+                    gets(carac);
+                    strcat(carac, interrogacao);
+                    quant = strlen(carac);
+                    sprintf(arrvore, "arvore %d %s\n", i, carac);
+                    lenght = strlen(arrvore);
+                    FILE *arvbin = fopen("ArvBin.txt", "a");
+                    fwrite(arrvore, sizeof(char), lenght, arvbin);
+                    esq = 2 * i + 1;
+                    sprintf(arrvore, "arvore %d %s\n", esq, nome);
+                    lenght = strlen(arrvore);
+                    fwrite(arrvore, sizeof(char), lenght, arvbin);
+                    dir = 2 * i + 2;
+                    sprintf(arrvore, "arvore %d %s\n", dir, nomeCerto);
+                    lenght = strlen(arrvore);
+                    fwrite(arrvore, sizeof(char), lenght, arvbin);
+                    printf("Pronto, agora eu conheco %s \n", nome);
+                    fclose(arvbin);
+                }
+            }
         }
         if(opc==3){
             printf("Aqui esta a arvore binaria neste exato momento \n \n");
