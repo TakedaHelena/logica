@@ -14,6 +14,13 @@ void inicializarArvore(char arvore[TAM_ARVORE][TAM_NOME]) {
     }
 }
 
+void limpar_buffer(void) {
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF) {
+        
+    }
+}
+
 //carrega dados da struct no arquivo do historico
 int guardarHist(char *hist) {
     FILE *fp = fopen("Hist.txt", "a");
@@ -86,7 +93,6 @@ void adicionarNome(char arvore[TAM_ARVORE][TAM_NOME], int indice, const char *no
 
     strncpy(arvore[indice], nome, TAM_NOME - 1);
     arvore[indice][TAM_NOME - 1] = '\0'; // Garante o caractere nulo no fim
-    printf("'%s' adicionado na posicao %d\n", nome, indice);
 }
 
 //loada a arvore inteira do arquivo
@@ -96,6 +102,7 @@ void fazerArvore(char arvore[TAM_ARVORE][TAM_NOME]){
     FILE *arvbin = fopen("ArvBin.txt", "r");
     while (fscanf(arvbin, "%c", &guardar) != EOF) {
         if (fgets(buffer, sizeof(buffer), arvbin) != NULL) {
+            sscanf(buffer, "rvore %d", &i);
             if(i<11){
                 char *formatado = buffer + 9;
                 int tam = strlen(formatado);
@@ -161,8 +168,9 @@ int main() {
         if(opc==1){
             i=0;
             vef='?';
+            inicializarArvore(arvore);
             fazerArvore(arvore);
-            printf("Entao jogaremos, mero mortal");
+            printf("Entao jogaremos, mero mortal\n");
             while(vef=='?'){
                 tama = strlen(arvore[i])-1;
                 vef = arvore[i][tama];
@@ -184,7 +192,7 @@ int main() {
                     strcpy(nomeCerto, arvore[i]);
                     scanf(" %c", &ctr);
                     if(ctr=='s'||ctr=='S'){
-                        printf("Sabia! Te venci muito facil");
+                        printf("Sabia! Te venci muito facil\n");
                         sprintf(hist, "Pessoa: %s - Acertada", arvore[i]);
                         guardarHist(hist);    
                     }
@@ -195,6 +203,7 @@ int main() {
                             char arrvore[151]="arvore";
                             j=0;
                             printf("Qual o nome da sua pessoa? ");
+                            limpar_buffer();
                             gets(nome);
                             sprintf(hist, "Pessoa: %s - Errada", nome);
                             guardarHist(hist);
@@ -202,7 +211,7 @@ int main() {
                             gets(carac);
                             strcat(carac, interrogacao);
                             quant = strlen(carac);
-                            sprintf(arrvore, "arvore %d %s?\n", i, carac);
+                            sprintf(arrvore, "\narvore %d %s?\n", i, carac);
                             lenght = strlen(arrvore);
                             FILE *arvbin = fopen("ArvBin.txt", "a");
                             fwrite(arrvore, sizeof(char), lenght, arvbin);
@@ -218,7 +227,7 @@ int main() {
                             fclose(arvbin);
                         }
                         else if(ctr=='n' || ctr=='N') {
-                            printf("Infelizmente continuarei a desconhecer sua persogem, obrigado por jogar!");
+                            printf("Infelizmente continuarei a desconhecer sua persogem, obrigado por jogar!\n");
                             strcpy(hist, "Pessoa desconhecida - Errada");
                             guardarHist(hist);
                         }  
@@ -253,8 +262,10 @@ int main() {
                     char arrvore[151]="arvore";
                     j=0;
                     printf("Qual o nome da sua pessoa? ");
+                    limpar_buffer();
                     gets(nome);
                     printf("Me fale uma caracteristica indestinguivel de sua pessoa em relacao a %s: ", nomeCerto);
+                    limpar_buffer();
                     gets(carac);
                     strcat(carac, interrogacao);
                     quant = strlen(carac);
