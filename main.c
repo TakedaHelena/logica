@@ -124,7 +124,7 @@ void fazerArvore(char arvore[TAM_ARVORE][TAM_NOME]){
             else {
                 char *formatado = buffer + 12;
                 int tam = strlen(formatado);
-                formatado[tam-2] = '\0';
+                formatado[tam-1] = '\0';
                 adicionarNome(arvore, i, formatado);
             }
         }
@@ -211,16 +211,16 @@ int main() {
                             gets(carac);
                             strcat(carac, interrogacao);
                             quant = strlen(carac);
-                            sprintf(arrvore, "\narvore %d %s?\n", i, carac);
+                            sprintf(arrvore, "arvore %d  %s?\n", i, carac);
                             lenght = strlen(arrvore);
                             FILE *arvbin = fopen("ArvBin.txt", "a");
                             fwrite(arrvore, sizeof(char), lenght, arvbin);
                             esq = 2 * i + 1;
-                            sprintf(arrvore, "arvore %d %s\n", esq, nome);
+                            sprintf(arrvore, "arvore %d  %s\n", esq, nome);
                             lenght = strlen(arrvore);
                             fwrite(arrvore, sizeof(char), lenght, arvbin);
                             dir = 2 * i + 2;
-                            sprintf(arrvore, "arvore %d %s\n", dir, nomeCerto);
+                            sprintf(arrvore, "arvore %d  %s\n", dir, nomeCerto);
                             lenght = strlen(arrvore);
                             fwrite(arrvore, sizeof(char), lenght, arvbin);
                             printf("Pronto, agora eu conheco %s \n", nome);
@@ -287,6 +287,8 @@ int main() {
             }
         }
         if(opc==3){
+            inicializarArvore(arvore);
+            fazerArvore(arvore);
             printf("Aqui esta a arvore binaria neste exato momento \n \n");
             exibirArvore(arvore);
         }
